@@ -58,7 +58,7 @@ class GetLinkedUPIAccountPage extends StatelessWidget {
                             };
 
                             Map<String, dynamic> turboPayload = {
-                              "upiAccount": razorpay.getUpiAccountStr(upiAccounts[index]),
+                             // "upiAccount": razorpay.getUpiAccountStr(upiAccounts[index]),
                               "payload": payload,
                             };
 
@@ -75,12 +75,12 @@ class GetLinkedUPIAccountPage extends StatelessWidget {
                         children: [
                           ElevatedButton(
                               onPressed: () {
-                                razorpay.getBalance(upiAccounts[index]);
+                               // razorpay.getBalance(upiAccounts[index]);
                               },
                               child: Text('Get Balance')),
                           ElevatedButton(
                               onPressed: () {
-                                razorpay.changeUpiPin(upiAccounts[index]);
+                               // razorpay.changeUpiPin(upiAccounts[index]);
                               },
                               child: Text('Change UPI Pin')),
                         ],
@@ -107,7 +107,7 @@ class GetLinkedUPIAccountPage extends StatelessWidget {
                               child: Text('Reset PIN')),
                           ElevatedButton(
                               onPressed: () {
-                                razorpay.delink(upiAccounts[index]);
+                              //  razorpay.delink(upiAccounts[index]);
                               },
                               child: Text('DeLink')),
                         ],

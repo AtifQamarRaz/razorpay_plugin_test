@@ -13,6 +13,7 @@ import 'bank_account_dialog.dart';
 import 'bank_list_screen_page.dart';
 import 'card_dialog.dart';
 import 'get_linked_upi_account_page.dart';
+import 'package:razorpay_flutter_customui/model/Error.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
@@ -43,6 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
   String? upiNumber;
 
   Map<dynamic, dynamic>? paymentMethods;
+
   late Razorpay _razorpay;
   Map<String, dynamic>? commonPaymentOptions;
   TextEditingController _controllerMerchantKey = new TextEditingController();
@@ -52,20 +54,17 @@ class _MyHomePageState extends State<MyHomePage> {
   final int _CODE_EVENT_ERROR = 201;
   bool isLoading = false;
 
+
   @override
   void initState() {
     turboUPIModel = TurboUPIModel();
     initValueForTurboUPI();
-    _razorpay = Razorpay();
+    _razorpay = Razorpay(key);
     _razorpay.on(Razorpay.EVENT_PAYMENT_SUCCESS, _handlePaymentSuccess);
     _razorpay.on(Razorpay.EVENT_PAYMENT_ERROR, _handlePaymentError);
     _razorpay.on(Razorpay.EVENT_UPI_TURBO_LINK_NEW_UPI_ACCOUNT,
         _handleNewUpiAccountResponse);
-    _razorpay.on(Razorpay.EVENT_UPI_TURBO_GET_LINKED_UPI_ACCOUNT,
-        _handleGetLinkedUpiAccountResponse);
-    _razorpay.on(Razorpay.EVENT_UPI_TURBO_NON_TRANSACTIONAL,
-        _handleNonTransactionalResponse);
-    _razorpay.initilizeSDK(key);
+
 
 
     super.initState();
@@ -144,7 +143,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     return;
                   }
 
-                  _razorpay.linkNewUpiAccount(turboUPIModel?.mobileNumber);
+                  _razorpay.upiTurbo.linkNewUpiAccount(customerMobile : turboUPIModel?.mobileNumber);
                 },
                 child: Text('GetLinkNewUpiAccounts')),
             SizedBox(height: 6.0),
@@ -160,7 +159,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   setState(() {
                     isLoading = true;
                   });
-                  _razorpay.getLinkedUpiAccounts(turboUPIModel?.mobileNumber);
+
+                  _razorpay.upiTurbo.linkNewUpiAccount(customerMobile : turboUPIModel?.mobileNumber);
                 },
                 child: Text('GetLinkedUpiAccounts')),
             SizedBox(height: 16.0),
@@ -226,14 +226,14 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   // UPI Turbo
-  void _handleNewUpiAccountResponse(dynamic response) {
-    print("_handleNewUpiAccountResponse() response : ${response}");
 
-    if (response["type"] == _CODE_EVENT_ERROR) {
-      displayError(response);
-      setState(() {
-        isLoading = false;
-      });
+  void _handleNewUpiAccountResponse(dynamic response) {
+    print("_handleNewUpiAccountResponse() response : ${response} ");
+
+    if (response["error"] != null ) {
+      Error error = response["error"];
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Action : ${response["action"]}\nError Code : ${error.errorCode} Error Description : ${error.errorDescription}")));
+      setState(() {isLoading = false;});
       return;
     }
 
@@ -243,6 +243,7 @@ class _MyHomePageState extends State<MyHomePage> {
         setState(() {
           isLoading = false;
         });
+        _razorpay.upiTurbo.askForPermission();
         break;
       case "LOADER_DATA":
         print("LOADER_DATA called");
@@ -252,8 +253,6 @@ class _MyHomePageState extends State<MyHomePage> {
         break;
       case "STATUS":
         print("STATUS called ${response[""]}");
-        /*ScaffoldMessenger.of(context)
-            .showSnackBar(SnackBar(content: Text("STATUS : ${response["data"]}")));*/
         setState(() {
           isLoading = false;
         });
@@ -262,25 +261,19 @@ class _MyHomePageState extends State<MyHomePage> {
           merchant can use this response["data"] upiAccounts or can again call
           _razorpay.getLinkedUpiAccounts(turboUPIModel?.mobileNumber)
        */
-
         Navigator.pop(context);
-
-        _razorpay.getLinkedUpiAccounts(turboUPIModel?.mobileNumber);
+        getLinkedUpiAccounts();
         break;
       case "SELECT_SIM":
         print("SELECT_SIM called data :  ${response["data"]}");
         setState(() {
           isLoading = false;
         });
-        final decodedResponse = json.decode(response["data"]);
-        final List<dynamic> simListJson = decodedResponse['sims'];
-        List<Sim> simList =
-        simListJson.map((json) => Sim.fromJson(json)).toList();
         showDialog(
           context: context,
           builder: (BuildContext context) {
             return SimDialog(
-              sims: simList,
+              sims: response["data"],
               razorpay: _razorpay,
             );
           },
@@ -291,14 +284,10 @@ class _MyHomePageState extends State<MyHomePage> {
           isLoading = false;
         });
         print("SELECT_BANK called data :  ${response["data"]}");
-        final decodedResponse = json.decode(response["data"]);
-        final List<dynamic> bankListJson = decodedResponse['banks'];
-        List<Bank> bankList =
-        bankListJson.map((json) => Bank.fromJson(json)).toList();
         Navigator.of(context).push(
           MaterialPageRoute(
             builder: (context) =>
-                BankListScreen(razorpay: _razorpay, bankList: bankList),
+                BankListScreen(razorpay: _razorpay, allbanks: response["data"]),
           ),
         );
         break;
@@ -307,9 +296,7 @@ class _MyHomePageState extends State<MyHomePage> {
           isLoading = false;
         });
         print("SELECT_BANK_ACCOUNT called data :  ${response["data"]}");
-        List<BankAccount> bankAccounts = List<BankAccount>.from(
-          json.decode(response["data"]).map((x) => BankAccount.fromJson(x)),
-        );
+        var bankAccounts = response["data"];
         if (bankAccounts.isEmpty) {
           ScaffoldMessenger.of(context)
               .showSnackBar(SnackBar(content: Text("No Account Found")));
@@ -344,71 +331,24 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
 
-  void _handleGetLinkedUpiAccountResponse(dynamic response) {
-    print("_handleNewUpiAccountResponse() response ${response} }");
-    setState(() {
-      isLoading = false;
-    });
-    if (response["type"] == _CODE_EVENT_ERROR) {
-      displayError(response);
-      return;
-    }
-
-    if (response["data"] == "") {
-      ScaffoldMessenger.of(context)
-          .showSnackBar(SnackBar(content: Text("No Account Found")));
-      return;
-    }
-
-    var upiAccounts = response["data"] as List<UpiAccount>;
-    if (upiAccounts.isEmpty) {
-      ScaffoldMessenger.of(context)
-          .showSnackBar(SnackBar(content: Text("No Account Found")));
-      return;
-    }
-
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (builder) {
-          return GetLinkedUPIAccountPage(
-              razorpay: _razorpay, upiAccounts: upiAccounts);
+  void getLinkedUpiAccounts() {
+    _razorpay.upiTurbo.getLinkedUpiAccounts(
+        customerMobile: turboUPIModel?.mobileNumber,
+        onSuccess: (List<UpiAccount> upiAccounts){
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (builder) {
+                return GetLinkedUPIAccountPage(
+                    razorpay: _razorpay, upiAccounts: upiAccounts);
+              },
+            ),
+          );
         },
-      ),
-    );
+        onFailure: (Error error) {
+          ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(content: Text("Error : ${error.errorDescription}")));
+        });
   }
 
-  void _handleNonTransactionalResponse(dynamic response) {
-    print("_handleNonTransactionalResponse() response ${response} }");
-    if (response["type"] == _CODE_EVENT_ERROR) {
-      displayError(response);
-      return;
-    }
-
-    if (response["action"] == "changeUpiPin") {
-      ScaffoldMessenger.of(context)
-          .showSnackBar(SnackBar(content: Text("Change UPI done")));
-      var upiAccount = response["data"] as UpiAccount;
-    } else if (response["action"] == "resetUpiPin") {
-      ScaffoldMessenger.of(context)
-          .showSnackBar(SnackBar(content: Text("Reset UPI done")));
-      Navigator.pop(context, true);
-      var upiAccount = response["data"] as UpiAccount;
-    } else if (response["action"] == "getBalance") {
-      /*var accountBalance = AccountBalance.fromJson(jsonDecode(response["data"]));
-      ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(" Balance : Rs ${accountBalance.balance}")));*/
-    } else if (response["action"] == "delink") {
-      Navigator.pop(context, true);
-      ScaffoldMessenger.of(context)
-          .showSnackBar(SnackBar(content: Text(response["data"])));
-    }
-
-  }
-
-  void displayError(response) {
-    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-        content: Text(
-            "Action : ${response["action"]}\nError: ${response["error"]}")));
-  }
 }

@@ -34,7 +34,7 @@ class BankAccountDialog extends StatelessWidget {
 
                       return GestureDetector(
                         onTap: () {
-                          razorpay.selectedBankAccount(bankAccounts[index]);
+                          razorpay.upiTurbo.selectedBankAccount(bankAccount: bankAccounts[index]);
                         },
                         child: ListTile(
                           title: Text(bankAccounts[index].maskedAccountNumber!),

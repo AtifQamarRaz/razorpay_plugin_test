@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../MyRepo" />
+      <root url="file://$PROJECT_DIR$/../myRepoNew/turbo-upi-dev" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

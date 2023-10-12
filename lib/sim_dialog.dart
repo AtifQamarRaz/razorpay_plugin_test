@@ -46,7 +46,7 @@ class _SimDialogState extends State<SimDialog> {
                     itemBuilder: (context, index) {
                       return ElevatedButton(
                           onPressed: () {
-                            widget.razorpay.register(widget.sims[index]);
+                            widget.razorpay.upiTurbo.register(sim :widget.sims[index]);
                             setState(() {
                               isLoadingForSim = true;
                             });

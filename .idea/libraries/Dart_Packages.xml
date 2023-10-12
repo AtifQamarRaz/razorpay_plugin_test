@@ -61,7 +61,7 @@
         <entry key="flutter">
           <value>
             <list>
-              <option value="$USER_HOME$/flutter/packages/flutter/lib" />
+              <option value="$USER_HOME$/ezetap/flutter/packages/flutter/lib" />
             </list>
           </value>
         </entry>
@@ -75,14 +75,14 @@
         <entry key="flutter_test">
           <value>
             <list>
-              <option value="$USER_HOME$/flutter/packages/flutter_test/lib" />
+              <option value="$USER_HOME$/ezetap/flutter/packages/flutter_test/lib" />
             </list>
           </value>
         </entry>
         <entry key="flutter_web_plugins">
           <value>
             <list>
-              <option value="$USER_HOME$/flutter/packages/flutter_web_plugins/lib" />
+              <option value="$USER_HOME$/ezetap/flutter/packages/flutter_web_plugins/lib" />
             </list>
           </value>
         </entry>
@@ -124,14 +124,14 @@
         <entry key="razorpay_flutter_customui">
           <value>
             <list>
-              <option value="$PROJECT_DIR$/../MyRepo//lib" />
+              <option value="$PROJECT_DIR$/../myRepoNew/turbo-upi-dev//lib" />
             </list>
           </value>
         </entry>
         <entry key="sky_engine">
           <value>
             <list>
-              <option value="$USER_HOME$/flutter/bin/cache/pkg/sky_engine/lib" />
+              <option value="$USER_HOME$/ezetap/flutter/bin/cache/pkg/sky_engine/lib" />
             </list>
           </value>
         </entry>
@@ -216,11 +216,11 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/test_api-0.6.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/vector_math-2.1.4/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/web-0.1.4-beta/lib" />
-      <root url="file://$PROJECT_DIR$/../MyRepo//lib" />
-      <root url="file://$USER_HOME$/flutter/bin/cache/pkg/sky_engine/lib" />
-      <root url="file://$USER_HOME$/flutter/packages/flutter/lib" />
-      <root url="file://$USER_HOME$/flutter/packages/flutter_test/lib" />
-      <root url="file://$USER_HOME$/flutter/packages/flutter_web_plugins/lib" />
+      <root url="file://$PROJECT_DIR$/../myRepoNew/turbo-upi-dev//lib" />
+      <root url="file://$USER_HOME$/ezetap/flutter/bin/cache/pkg/sky_engine/lib" />
+      <root url="file://$USER_HOME$/ezetap/flutter/packages/flutter/lib" />
+      <root url="file://$USER_HOME$/ezetap/flutter/packages/flutter_test/lib" />
+      <root url="file://$USER_HOME$/ezetap/flutter/packages/flutter_web_plugins/lib" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -32,7 +32,7 @@ dependencies:
     sdk: flutter
 
   razorpay_flutter_customui:
-    path: /Users/atif.qamar/Development/Razorpay/MyRepo/
+    path: /Users/atif.qamar/Razorpay/myRepoNew/turbo-upi-dev/
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2

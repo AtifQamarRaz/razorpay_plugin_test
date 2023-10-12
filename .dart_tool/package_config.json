@@ -51,7 +51,7 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///Users/atif.qamar/flutter/packages/flutter",
+      "rootUri": "file:///Users/atif.qamar/ezetap/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -63,13 +63,13 @@
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///Users/atif.qamar/flutter/packages/flutter_test",
+      "rootUri": "file:///Users/atif.qamar/ezetap/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "flutter_web_plugins",
-      "rootUri": "file:///Users/atif.qamar/flutter/packages/flutter_web_plugins",
+      "rootUri": "file:///Users/atif.qamar/ezetap/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -105,13 +105,13 @@
     },
     {
       "name": "razorpay_flutter_customui",
-      "rootUri": "file:///Users/atif.qamar/Development/Razorpay/MyRepo/",
+      "rootUri": "file:///Users/atif.qamar/Razorpay/myRepoNew/turbo-upi-dev/",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///Users/atif.qamar/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///Users/atif.qamar/ezetap/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -170,7 +170,7 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-09-24T13:49:20.346363Z",
+  "generated": "2023-10-12T05:54:32.738373Z",
   "generator": "pub",
-  "generatorVersion": "3.1.1"
+  "generatorVersion": "3.1.3"
 }

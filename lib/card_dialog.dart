@@ -101,11 +101,11 @@ class CardDialog extends StatelessWidget {
                   expiryYear: expiryYear , expiryMonth: expiryMonth );
 
               if(upiAccount == null){
-                razorpay.setupUpiPin(card);
+                razorpay.upiTurbo.setupUpiPin(card : card);
                 return;
               }
 
-              razorpay.resetUpiPin(upiAccount!, card);
+              //razorpay.upiTurbo.resetUpiPin(upiAccount: upiAccount!, card : card);
             }, child: Text('Rest UPI Pin')),
 
           ],

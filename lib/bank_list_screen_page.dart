@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:razorpay_flutter_customui/model/all_banks.dart';
 import 'package:razorpay_flutter_customui/model/bank_model.dart';
 import 'package:razorpay_flutter_customui/razorpay_flutter_customui.dart';
 
-
 class BankListScreen extends StatefulWidget {
-  final List<Bank> bankList;
+  final AllBanks allbanks;
   final Razorpay razorpay;
 
   BankListScreen({
-    required this.bankList,
+    required this.allbanks,
     required this.razorpay
   });
 
@@ -22,15 +22,15 @@ class _BankListScreenState extends State<BankListScreen> {
 
   @override
   void initState() {
-    banks = widget.bankList;
+    banks = widget.allbanks.banks as List<Bank>;
     super.initState();
 
   }
 
   void filterSearchResults(String query) {
     setState(() {
-      banks = widget.bankList.where((element) => element.name!.toLowerCase().contains(query.toLowerCase())).toList();
-
+      var searchBank = widget.allbanks.banks as List<Bank>;
+      banks = searchBank.where((element) => element.name!.toLowerCase().contains(query.toLowerCase())).toList();
     });
   }
 
@@ -74,7 +74,7 @@ class _BankListScreenState extends State<BankListScreen> {
                     setState(() {
                       isLoading = true;
                     });
-                    widget.razorpay.getBankAccounts(banks[index]);
+                    widget.razorpay.upiTurbo.getBankAccounts(bank: banks[index]);
                   },
                   child: ListTile(
                     title: Text(banks[index].name!),
