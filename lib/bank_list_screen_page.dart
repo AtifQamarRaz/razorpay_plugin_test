@@ -3,7 +3,6 @@ import 'package:razorpay_flutter_customui/model/all_banks.dart';
 import 'package:razorpay_flutter_customui/model/bank_model.dart';
 import 'package:razorpay_flutter_customui/razorpay_flutter_customui.dart';
 
-
 class BankListScreen extends StatefulWidget {
   final AllBanks allbanks;
   final Razorpay razorpay;
