@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="AJ">କାର୍ଡ ସକ୍ରିୟ ନାହିଁ</string>
+    <string name="SP">ଅବୈଧ/ଭୁଲ୍‌ ଏଟିଏମ୍‌ ପିନ୍‌</string>
+    <string name="U76">ୟୁପିଆଇ ପିନ୍‌ ପଞ୍ଜୀକରଣ ଫର୍ମାଟ୍‌ ଜାରିକର୍ତ୍ତା ବ୍ୟାଙ୍କ ଦ୍ୱାରା ସମର୍ଥିତ ନୁହେଁ</string>
+    <string name="URL_error">ୟୁ.ଆର୍.ଏଲ୍. ଅବୈଧ ଅଟେ</string>
+    <string name="aadhaar_otp_info_2">ଆଧାର-ଓ.ଟି.ପି. ସ୍ୱଚାଳିତ ଭାବେ ରିଡ୍ ହୋଇଯିବ ।</string>
+    <string name="aadhaar_otp_limit_info">ଆଧାର-ଓ.ଟି.ପି. ସୀମା ଅତିକ୍ରମ ହୋଇଛି</string>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ହୋମ୍ ପେଜ୍‍କୁ ନେଭିଗେଟ୍ କରନ୍ତୁ"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"ଉପରକୁ ନେଭିଗେଟ୍ କରନ୍ତୁ"</string>
     <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ଅଧିକ ବିକଳ୍ପ"</string>
@@ -27,6 +33,78 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"ଏହାଙ୍କ ସହ ଶେୟାର୍‌ କରନ୍ତୁ"</string>
     <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ସହ ଶେୟାର୍‍ କରନ୍ତୁ"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"ଛୋଟ କରନ୍ତୁ"</string>
+    <string name="action_hide">ଲୁଚାନ୍ତୁ</string>
+    <string name="action_resend">ଓ.ଟି.ପି ପୁନଃପଠାନ୍ତୁ</string>
+    <string name="action_resend_aadhaar_otp">ଆଧାର-ଓ.ଟି.ପି. ପୁଣିଥରେ ପଠାନ୍ତୁ</string>
+    <string name="action_resend_bank_otp">ବ୍ୟାଙ୍କ-ଓ.ଟି.ପି. ପୁଣିଥରେ ପଠାନ୍ତୁ</string>
+    <string name="action_show">ଦେଖାନ୍ତୁ</string>
+    <string name="back_button_exit_message">ଦୟାକରି ପ୍ରସ୍ଥାନ କରିବା ପାଇଁ ପଛକୁ ଫେରନ୍ତୁ ବଟନକୁ ପୁନର୍ବାର ଟିପନ୍ତୁ </string>
+    <string name="bank_error">ବ୍ୟାଙ୍କ ସହ ସଂଯୋଗ କରିବାରେ ଅକ୍ଷମ। ଦୟାକରି ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="bank_otp_info_2">ବ୍ୟାଙ୍କ-ଓ.ଟି.ପି. ସ୍ୱଚାଳିତ ଭାବେ ରିଡ୍ ହୋଇଯିବ ।</string>
+    <string name="bank_otp_limit_info">ବ୍ୟାଙ୍କ-ଓ.ଟି.ପି. ସୀମା ଅତିକ୍ରମ ହୋଇଛି</string>
+    <string name="card_expiry_title">%1$s ରେ ସମାପ୍ତ ହେଉଥିବା କାର୍ଡର ବୈଧତା</string>
+    <string name="card_info">ଦୟାକରି %2$s ଡେବିଟ୍‌ କାର୍ଡକୁ ଯାଞ୍ଚ କରନ୍ତୁ ଯାହା ଆପଣଙ୍କୁ ଖାତା ସଂଖ୍ୟା %1$s ଲାଗି ଜାରି କରାଯାଇଥିଲା</string>
+    <string name="card_number_title">ଡେବିଟ୍‌ କାର୍ଡର ଶେଷ 6 ଅଙ୍କ</string>
+    <string name="componentMessage">ଦୟାକରି ଅନୁରୋଧ ହୋଇଥିବା ସୂଚନା ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="component_message">ଦୟାକରି ଅନୁରୋଧ ହୋଇଥିବା ସୂଚନା ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="detecting_otp">ଓ.ଟି.ପି ରିଡ୍ହେଉଛି</string>
+    <string name="dismiss">ଖାରଜ କରନ୍ତୁ</string>
+    <string name="edit_card_number">କାର୍ଡ ସଂଖ୍ୟାକୁ ସମ୍ପାଦନ କରନ୍ତୁ</string>
+    <string name="educational_info_aadhaar_otp">ଆଧାର-ଓ.ଟି.ପି. ଆପଣଙ୍କ ପଞ୍ଜୀକୃତ ମୋବାଇଲ ନମ୍ବରକୁ ଏସ୍.ଏମ୍.ଏସ୍. ଯୋଗେ ପଠାଯାଇଛି ।</string>
+    <string name="educational_info_atm">ଅଟୋମେଟେଡ୍ ଟେଲର୍ ମେସିନ୍ (ଏ.ଟି.ଏମ୍ ) ଏବଂ ପଏଣ୍ଟ ଅଫ୍ ସେଲ୍ (ପି.ଓ.ଏସ୍) ବିନିମୟ ସମୟରେ କାର୍ଡ୍‌ହୋଲ୍ଡର୍‌ଙ୍କ ଦ୍ବାରା ପିନ୍ ମାନ୍ୟୁଆଲୀ ପ୍ରବେଶ କରା ଯାଇଥାଏ | </string>
+    <string name="educational_info_bank_otp">ବ୍ୟାଙ୍କ-ଓ.ଟି.ପି. ଆପଣଙ୍କ ପଞ୍ଜୀକୃତ ମୋବାଇଲ ନମ୍ବରକୁ ଏସ୍.ଏମ୍.ଏସ୍. ଯୋଗେ ପଠାଯାଇଛି ।</string>
+    <string name="educational_info_otp">ଏସ୍.ଏମ୍.ଏସ୍ ଦ୍ବାରା ଓ.ଟି.ପି ଆପଣଙ୍କ ପଞ୍ଜିକୃତ ମୋବାଇଲ୍ ନମ୍ବରକୁ ପ୍ରେରଣ ହୋଇଛି |</string>
+    <string name="educational_info_upi">ୟୁ.ପି.ଆଇ ପିନ୍ ଅଣଅନୁମୋଦିତ ଆକ୍‌ସେସ୍‌ରୁ ଆପଣଙ୍କ ଆକାଉଣ୍ଟକୁ ସୁରକ୍ଷିତ ରଖିବ | ଏହି ପିନ୍ ଅନ୍ୟ କାହା ସହ ଅଂଶୀଦାର କରନ୍ତୁ ନାହିଁ</string>
+    <string name="educational_info_upi_debit">ୟୁ.ପି.ଆଇ. ପିନ୍ ଅନୁମୋଦିତ ହେଲେ ଏକାଉଣ୍ଟ ଡେବିଟ୍ ହେବ</string>
+    <string name="educational_info_upi_debitnew">ଆପଣ ଆପଣଙ୍କ ଏକାଉଣ୍ଟରୁ ଟଙ୍କା ଟ୍ରାନ୍ସଫର୍ କରୁଛନ୍ତି %1$s</string>
+    <string name="educational_info_upi_mandate"> ଆପଣ ଏହା ବିପକ୍ଷରେ ମ୍ୟାଣ୍ଡେଟ୍ ସମ୍ପର୍କିତ ଟ୍ରାନ୍‌ଜାକ୍‌ସନ କରୁଛନ୍ତି  %1$s</string>
+    <string name="educational_info_upi_mandate_create"> ଆପଣ ଏଥିପାଇଁ ମ୍ୟାଣ୍ଡେଟ୍ ସୃଷ୍ଟି କରୁଛନ୍ତି  %1$s</string>
+    <string name="educational_info_upi_mandate_modify"> ଆପଣ ଏଥିପାଇଁ ମ୍ୟାଣ୍ଡେଟ୍ ପରିବର୍ତ୍ତନ କରୁଛନ୍ତି %1$s</string>
+    <string name="educational_info_upi_mandate_pause"> ଆପଣ ଏଥିପାଇଁ ମ୍ୟାଣ୍ଡେଟ୍ ପଜ୍ କରୁଛନ୍ତି %1$s</string>
+    <string name="educational_info_upi_mandate_register"> ଆପଣ ଏଥିପାଇଁ ମ୍ୟାଣ୍ଡେଟ୍ ରେଜିଷ୍ଟର କରୁଛନ୍ତି  %1$s</string>
+    <string name="educational_info_upi_mandate_revoke"> ଆପଣ ଏଥିପାଇଁ ମ୍ୟାଣ୍ଡେଟ୍ ରଦ୍ଦ କରୁଛନ୍ତି %1$s</string>
+    <string name="educational_info_upi_mandate_unpause"> ଆପଣ ଏଥିପାଇଁ ମ୍ୟାଣ୍ଡେଟ୍ ଅନ୍‌-ପଜ୍ କରୁଛନ୍ତି %1$s</string>
+    <string name="error_message_aadhaar_otp">ଦୟାକରି %1$d-ଅଙ୍କ ବିଶିଷ୍ଟ ଆଧାର-ଓ.ଟି.ପି. ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="error_message_atm_pin">"ଦୟାକରି %1$d ଅଙ୍କର ଏ.ଟି.ଏମ୍ ପିନ୍ ପ୍ରବେଶ କରନ୍ତୁ "</string>
+    <string name="error_message_bank_otp">ଦୟାକରି %1$d-ଅଙ୍କ ବିଶିଷ୍ଟ ବ୍ୟାଙ୍କ-ଓ.ଟି.ପି. ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="error_message_card_no">ଦୟାକରି ଡେବିଟ୍‌ କାର୍ଡର ଶେଷ 6 ଅଙ୍କ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="error_message_card_validity">ଦୟାକରି କାର୍ଡର ବୈଧତା ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="error_message_card_validity_invalid">ଅବୈଧ କାର୍ଡ ବୈଧତା</string>
+    <string name="error_message_mpin">" ଦୟାକରି %1$d ଅଙ୍କର ୟୁ.ପି.ଆଇ ପିନ୍ ପ୍ରବେଶ କରନ୍ତୁ "</string>
+    <string name="error_message_otp">ଦୟାକରି %1$d ଅଙ୍କର ଓ.ଟି.ପି ପ୍ରବେଶ କରନ୍ତୁ </string>
+    <string name="error_msg">ଯାନ୍ତ୍ରିକ ସମସ୍ୟା, ଦୟାକରି କିଛି ସମୟ ପରେ ଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="forgot_upi">ୟୁ.ପି.ଆଇ ପିନ୍ ଭୁଲିଯାଇଛନ୍ତି ?</string>
+    <string name="go_back">ପଛକୁଫେରନ୍ତୁ</string>
+    <string name="info">ସୂଚନା</string>
+    <string name="info_pin_not_match">ପିନ୍ ମେଳ ଖାଉ ନାହିଁ | ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ |</string>
+    <string name="info_pins_dont_match">ପିନ୍ମେଳଖାଉନାହିଁ</string>
+    <string name="invalid_otp">ଅବୈଧ ଓ.ଟି.ପି</string>
+    <string name="mobile_lock_desc">ମୋବାଇଲ୍ ଲକ୍ |</string>
+    <string name="mobile_lock_header">ମୋବାଇଲ୍ ଲକ୍ ସକ୍ଷମ କରନ୍ତୁ |</string>
+    <string name="mobile_lock_text">ଆପଣଙ୍କ ମୋବାଇଲରେ ସ୍କ୍ରିନ୍ ଲକ୍ ନାହିଁ | ଏହି ପ୍ରବାହକୁ ସକ୍ଷମ କରିବାକୁ ଦୟାକରି ଏକ ମୋବାଇଲ୍ ଲକ୍ ସେଟ୍ କରନ୍ତୁ |</string>
+    <string name="mobile_lock_title">ଆପ୍ ଅନୁମତି |</string>
+    <string name="network_check_message">ଦୟାକରି ଆପଣଙ୍କ ଡାଟା ନେଟ୍‌ୱର୍କ ଯାଞ୍ଚ କରନ୍ତୁ କିମ୍ବା ଏକ ସକ୍ରିୟ ୱାଇଫାଇ ନେଟ୍‌ୱର୍କ ଅନ୍ କରନ୍ତୁ |</string>
+    <string name="network_not_available">ମୋବାଇଲ୍ ନେଟ୍‌ୱର୍କ ଉପଲବ୍ଧ ନାହିଁ</string>
+    <string name="no_internet">କୌଣସି ଇଣ୍ଟର୍‌ନେଟ୍ ସଂଯୋଜନା ନାହିଁ</string>
+    <string name="not_right">କିଛିଭୁଲ୍ଅଛି</string>
+    <string name="npci_aadhaar_otp_title">%1$d-ଅଙ୍କ ବିଶିଷ୍ଟ ଆଧାର-ଓ.ଟି.ପି. ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="npci_atm_title">%1$d-ଅଙ୍କର ଏ.ଟି.ଏମ୍ ପିନ୍ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="npci_bank_otp_title">%1$d-ଅଙ୍କ ବିଶିଷ୍ଟ ବ୍ୟାଙ୍କ-ଓ.ଟି.ପି. ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="npci_confirm_mpin_title"> %1$d-ଅଙ୍କର ୟୁ.ପି.ଆଇ ପିନ୍ ସୁନିଶ୍ଚିନ୍ତ କରନ୍ତୁ </string>
+    <string name="npci_confirm_new_mpin_title"> %1$d-ଅଙ୍କର ନୁଆ ୟୁ.ପି.ଆଇ ପିନ୍ ସୁନିଶ୍ଚିନ୍ତ କରନ୍ତୁ </string>
+    <string name="npci_mpin_title"> %1$d-ଅଙ୍କର ୟୁ.ପି.ଆଇ ପିନ୍ ପ୍ରବେଶ କରନ୍ତୁ </string>
+    <string name="npci_new_mpin_title"> %1$d-ଅଙ୍କର ନୁଆ ୟୁ.ପି.ଆଇ ପିନ୍ ପ୍ରବେଶ କରନ୍ତୁ </string>
+    <string name="npci_old_mpin_title"> %1$d-ଅଙ୍କର ପୁରୁଣା ୟୁ.ପି.ଆଇ ପିନ୍ ପ୍ରବେଶ କରନ୍ତୁ </string>
+    <string name="npci_otp_title">%1$d ଅଙ୍କର ଓ.ଟି.ପି ପ୍ରବେଶ କରନ୍ତୁ </string>
+    <string name="npci_set_mpin_title"> %1$d-ଅଙ୍କର ୟୁ.ପି.ଆଇ ପିନ୍ ସେଟ୍ କରନ୍ତୁ </string>
+    <string name="otp_error">ଦୟାକରି ଏକ ବୈଧ ଓ.ଟି.ପି. ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="otp_info_2">ଓ.ଟି.ପି ସ୍ବତଃ ରିଡ୍ ହେବ |</string>
+    <string name="otp_limit_info">ଓ.ଟି.ପି ସୀମା ଅତିକ୍ରମ କରିଛି</string>
+    <string name="referesh_message">ଏହା ଆପଣଙ୍କ ବ୍ୟାଙ୍କ ସହିତ ସୁରକ୍ଷିତ ସଂଯୋଜନା ପୁନଃ-ସ୍ଥାପନ କରିବ | </string>
+    <string name="refresh_page">ପେଜ୍ ରିଫ୍ରେଶ୍ କରନ୍ତୁ</string>
     <string msgid="146198913615257606" name="search_menu_title">"ସର୍ଚ୍ଚ କରନ୍ତୁ"</string>
+    <string name="settings_text">ସେଟିଂସମୂହକୁ ଯାଆନ୍ତୁ |</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="submitting_details">ଆପଣଙ୍କ ବିବରଣୀ ଦାଖଲ କରାଯାଉଛି</string>
+    <string name="waiting_for_otp">ଓ.ଟି.ପି. ପାଇଁ ଅପେକ୍ଷାରତ ...</string>
 </resources>

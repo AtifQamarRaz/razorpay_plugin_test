@@ -2,16 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:razorpay_flutter_customui/razorpay_flutter_customui.dart';
 import 'package:razorpay_flutter_customui/model/upi_account.dart';
 import 'package:razorpay_flutter_customui/card.dart' as RazorPayCard;
+import 'package:razorpay_flutter_customui/model/Error.dart';
 
 class CardDialog extends StatelessWidget {
 
   final UpiAccount? upiAccount;
   final Razorpay razorpay;
-  
+
   String lastSixDigits ='';
   String expiryYear ='';
   String expiryMonth ='';
-  
+
   CardDialog( {required this.upiAccount, required this.razorpay,});
 
 
@@ -101,11 +102,19 @@ class CardDialog extends StatelessWidget {
                   expiryYear: expiryYear , expiryMonth: expiryMonth );
 
               if(upiAccount == null){
-                razorpay.setupUpiPin(card);
+                razorpay.upiTurbo.setupUpiPin(card :card);
                 return;
               }
 
-              razorpay.resetUpiPin(upiAccount!, card);
+              razorpay.upiTurbo.resetUpiPin(upiAccount : upiAccount!, card :card ,
+                  onSuccess: (UpiAccount upiAccount){
+                    ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(content: Text("Rest UPI Pin done")));
+                  },
+                  onFailure: (Error error){
+                    ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(content: Text("Error : ${error.errorDescription}")));
+                  });
             }, child: Text('Rest UPI Pin')),
 
           ],

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="AJ">کارڈ ایکٹیو نہیں ہے</string>
+    <string name="SP">اے ٹی ایم پن غلط ہے/صحیح نہیں ہے</string>
+    <string name="U76">یو پی آئی پن رجسٹریشن فارمیٹ کارڈ جاری کرنے والا بینک سپورت نہیں کرتا۔</string>
+    <string name="URL_error">URL موزوں نہیں ہے</string>
+    <string name="aadhaar_otp_info_2">آدھار OTP خودبخود پڑھا جائے گا۔</string>
+    <string name="aadhaar_otp_limit_info">آدھار OTP کی حد تجاوز کرگئی</string>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ہوم پر نیویگیٹ کریں"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"اوپر نیویگیٹ کریں"</string>
     <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"مزید اختیارات"</string>
@@ -27,6 +33,78 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"اشتراک کریں مع"</string>
     <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> کے ساتھ اشتراک کریں"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"سکیڑیں"</string>
+    <string name="action_hide">چھپائيں</string>
+    <string name="action_resend">او ٹی پی دوبارہ بھیجیں</string>
+    <string name="action_resend_aadhaar_otp">آدھار OTP دوبارہ بھیجیں</string>
+    <string name="action_resend_bank_otp">بینک OTP دوبارہ بھیجیں</string>
+    <string name="action_show">دکھائیں</string>
+    <string name="back_button_exit_message">باہر نکلنے کے لیے براہ کرم باہر نکلیں بٹن کو دوبارہ دبائیں</string>
+    <string name="bank_error">بینک سے رابطہ نہیں ہو پا رہا ہے۔ برائے مہربانی دوبارہ کوشش کریں۔</string>
+    <string name="bank_otp_info_2">بینک OTP کو خودبخود پڑھا جائے گا۔</string>
+    <string name="bank_otp_limit_info">بینک OTP کی حد تجاوز کرگئی</string>
+    <string name="card_expiry_title">%1$s کارڈ جس کے آخر میں ہے کی مدت</string>
+    <string name="card_info">"%1$s  %2$s چیک کریں آپ کے اکاؤنٹ نمبر  کے لئے جاری کردہ ڈیبٹ کارڈ "</string>
+    <string name="card_number_title">ڈیبٹ کارڈ کے آخر کے 6 ہندسے</string>
+    <string name="componentMessage">براہ کرم درخواست کردہ معلومات درج کریں</string>
+    <string name="component_message">براہ کرم درخواست کردہ معلومات درج کریں۔</string>
+    <string name="detecting_otp">او ٹی پی پڑھ رہا ہے</string>
+    <string name="dismiss">برخواست کریں</string>
+    <string name="edit_card_number">کارڈ نمبر ایڈٹ کریں</string>
+    <string name="educational_info_aadhaar_otp">آپ کے رجسٹر شدہ موبائل نمبر پر SMS کے ذریعہ آدھار OTP بھیج دی گئی ہے۔</string>
+    <string name="educational_info_atm">پن جس کو کارڈبردار نے خودکار ٹیلر مشین (اے ٹی ایم) اور پوائنٹ آف سیل (پی او ایس) ٹرانزیکشنز کے دوران دستی طور پر درج کیا ہے۔</string>
+    <string name="educational_info_bank_otp">SMS کے ذریعہ آپ کے رجسٹر شدہ موبائل نمبر پر بینک OTP بھیج دیا گيا ہے۔</string>
+    <string name="educational_info_otp">ایس ایم ایس کے ذریعہ آپ کے رجسٹر شدہ موبائل نمبر پر او ٹی پی بھیج دیا گيا ہے۔</string>
+    <string name="educational_info_upi">یوپی آئی پن آپ کے اکاؤنٹ کو غیرمجاز رسائی سے محفوظ رکھے گا۔ کسی کے بھی ساتھ اس پن کا اشتراک نہ کریں۔</string>
+    <string name="educational_info_upi_debit">اگر یو پی آئی پن منظور ہوجاتا ہے تو اکاؤنٹ میں ڈیبٹ ہوجائے گا۔</string>
+    <string name="educational_info_upi_debitnew">%1$s آپ اپنے اکاؤنٹ سے رقم منتقل کررہے ہیں از</string>
+    <string name="educational_info_upi_mandate">%1$sآپ اس کے خلاف حکم سے متعلق لین دین کررہے ہیں</string>
+    <string name="educational_info_upi_mandate_create">"%1$sآپ اس کے لیے حکم تخلیق کررہے ہیں "</string>
+    <string name="educational_info_upi_mandate_modify">%1$sآپ اس کے لیے حکم میں ترمیم کررہے ہیں</string>
+    <string name="educational_info_upi_mandate_pause">%1$sآپ اس کے لیے حکم کو روک رہے ہیں</string>
+    <string name="educational_info_upi_mandate_register">%1$sآپ اس کے لیے حکم رجسٹر کررہے ہیں</string>
+    <string name="educational_info_upi_mandate_revoke">%1$sآپ اس کے لیے حکم کو کالعدم کررہے ہیں</string>
+    <string name="educational_info_upi_mandate_unpause">%1$sآپ اس کے لیے حکم کو روکنا بند کررہے ہیں</string>
+    <string name="error_message_aadhaar_otp">براہ کرم %1$d-ہندسے والا آدھار OTP درج کریں</string>
+    <string name="error_message_atm_pin">%1$d براہ کرم ہندسوں کا اے ٹی ایم پن درج کریں۔</string>
+    <string name="error_message_bank_otp">براہ کرم %1$d-ہندسے والا بینک OTP درج کریں</string>
+    <string name="error_message_card_no">ڈیبٹ کارڈ کے آخر کے 6 ہندسے لکھیں</string>
+    <string name="error_message_card_validity">کارڈ کی مدت لکھیں</string>
+    <string name="error_message_card_validity_invalid">کارڈ کی مدت غلط ہے</string>
+    <string name="error_message_mpin">%1$d-براہ کرم  عددی یو پی آئی پن درج کریں</string>
+    <string name="error_message_otp">%1$d براہ کرم  عددی او ٹی پی درج کریں</string>
+    <string name="error_msg">تکنیکی مسئلہ، براہ کرم تھوڑی دیر بعد کوشش کریں</string>
+    <string name="forgot_upi">یو پی آئی پن بھول گئے؟</string>
+    <string name="go_back">واپس جائيں</string>
+    <string name="info">آئی این ایف او</string>
+    <string name="info_pin_not_match">پن مماثل نہیں ہے۔ دوبارہ کوشش کریں۔</string>
+    <string name="info_pins_dont_match">پن مماثل نہیں ہیں</string>
+    <string name="invalid_otp">غلط او ٹی پی</string>
+    <string name="mobile_lock_desc">موبائل لاک۔</string>
+    <string name="mobile_lock_header">موبائل لاک کو فعال کریں۔</string>
+    <string name="mobile_lock_text">آپ کے موبائل میں سکرین لاک نہیں ہے۔ براہ کرم اس بہاؤ کو فعال کرنے کے لیے موبائل لاک سیٹ کریں۔</string>
+    <string name="mobile_lock_title">درخواست کی اجازت۔</string>
+    <string name="network_check_message">براہ کرم اپنا ڈیٹا نیٹ ورک چیک کریں یا فعال وائی فائی نیٹ ورک پر سوئچ کریں۔</string>
+    <string name="network_not_available">موبائل نیٹ ورک دستیاب نہیں ہے</string>
+    <string name="no_internet">کوئی انٹرنیٹ کنکٹیویٹی نہیں ہے</string>
+    <string name="not_right">کچھ غلط ہے</string>
+    <string name="npci_aadhaar_otp_title">براہ کرم %1$d-ہندسے والا آدھار OTP درج کریں</string>
+    <string name="npci_atm_title">%1$d-عددی اے ٹی ایم پن</string>
+    <string name="npci_bank_otp_title">براہ کرم %1$d-ہندسے والا بینک OTP درج کریں</string>
+    <string name="npci_confirm_mpin_title">%1$d-عددی یو پی آئی پن کی تصدیق کریں</string>
+    <string name="npci_confirm_new_mpin_title">%1$d-عددی نئے یو پی آئی پن کی تصدیق کریں</string>
+    <string name="npci_mpin_title">%1$d-عددی یو پی آئی پن درج کریں</string>
+    <string name="npci_new_mpin_title">%1$d-عددی نیا یو پی آئی پن درج کریں</string>
+    <string name="npci_old_mpin_title">%1$d-عددی پرانا یو پی آئی پن درج کریں</string>
+    <string name="npci_otp_title">%1$d-عددی او ٹی پی درج</string>
+    <string name="npci_set_mpin_title">%1$d-عددی یو پی آئی پن سیٹ کریں</string>
+    <string name="otp_error">براہ کرم ایک درست او پی پی درج کریں۔</string>
+    <string name="otp_info_2">او ٹی پی خودکار طریقے پڑھا جائے گا۔</string>
+    <string name="otp_limit_info">او ٹی پی کی حد تجاوز کرگئی</string>
+    <string name="referesh_message">یہ آپ کے بینک کے ساتھ محفوظ کنکشن کو دوبارہ قائم کرے گا</string>
+    <string name="refresh_page">صفحہ کی تازہ کاری کریں</string>
     <string msgid="146198913615257606" name="search_menu_title">"تلاش"</string>
+    <string name="settings_text">ترتیبات پر جائیں۔</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="submitting_details">اپنی تفصیلات کا اندراج کریں</string>
+    <string name="waiting_for_otp">او ٹی پی کے انتظار میں</string>
 </resources>

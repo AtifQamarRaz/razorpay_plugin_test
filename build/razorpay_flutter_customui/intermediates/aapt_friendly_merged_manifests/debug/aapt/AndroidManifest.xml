@@ -3,8 +3,8 @@
     package="com.razorpay.flutter_customui" >
 
     <uses-sdk
-        android:minSdkVersion="21"
-        android:targetSdkVersion="21" />
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
 
     <queries>
 

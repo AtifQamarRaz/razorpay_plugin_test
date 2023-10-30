@@ -1811,7 +1811,6 @@ drawable ic_action_reload_white
 drawable ic_action_submit
 drawable ic_add
 drawable ic_add_square
-drawable ic_alert
 drawable ic_arrow_back
 drawable ic_arrow_back_white
 drawable ic_arrow_next
@@ -1842,11 +1841,10 @@ drawable ic_refresh
 drawable ic_rzp_logo
 drawable ic_search_active
 drawable ic_search_inactive
-drawable ic_setting
 drawable ic_sim1_logo
 drawable ic_sim2_logo
+drawable ic_sms
 drawable ic_tick_green_solid
-drawable ic_tick_mark
 drawable ic_tick_ok
 drawable ic_upi_npci_logo
 drawable ic_visibility_blue_24px
@@ -1890,15 +1888,9 @@ drawable rounded_corners_2
 drawable rounded_corners_3
 drawable roundedcorner1
 drawable roundedcorner2
-drawable rzp_border
-drawable rzp_border_bottom
-drawable rzp_green_button
 drawable rzp_loader_circle
 drawable rzp_logo
 drawable rzp_name_logo
-drawable rzp_poweredby
-drawable rzp_secured_by_bg
-drawable rzp_white_border_black_bg
 drawable sbi_logo
 drawable snackbar_background
 drawable stroked_rectangle_bg
@@ -2007,6 +1999,7 @@ id blocking
 id bottom
 id bounce
 id brandingLayout
+id brandingParentView
 id btn
 id btnAllowPermissions
 id btnChangeBank
@@ -2030,7 +2023,6 @@ id center_vertical
 id chain
 id chain2
 id chargestext_single
-id check_list
 id checkbox
 id checkboxlayout
 id checked
@@ -2173,7 +2165,6 @@ id ivSearch
 id ivUPILogo
 id ivWarning
 id ivWarningLogo
-id iv_check_mark
 id iv_rzp_name_logo
 id jumpToEnd
 id jumpToStart
@@ -2283,10 +2274,6 @@ id rvBanks
 id rvLinkedAccounts
 id rvPopularBanks
 id rvVpas
-id rzp_innerbox
-id rzp_outerbox
-id rzp_securedpayments
-id rzp_theMainMagicView
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -2455,8 +2442,6 @@ id tvYes
 id tv_acc_or_payee
 id tv_acc_or_payee_name
 id tv_powered_by
-id tv_sub_item
-id tv_title
 id txtScenario
 id unchecked
 id uniform
@@ -2622,12 +2607,9 @@ layout notification_template_part_time
 layout popular_banks_item
 layout rzp_button
 layout rzp_loader
-layout rzp_magic_base
-layout sdk_integration_status
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
-layout single_item
 layout single_sim
 layout snackbar_custom_view
 layout support_simple_spinner_dropdown_item
@@ -2647,7 +2629,6 @@ raw certificate1
 raw checkmark_loader
 raw circular_loader
 raw rzp_config
-raw rzp_config_checkout
 raw rzp_config_customui
 raw upi_turbo_loader
 string AJ
@@ -2759,8 +2740,6 @@ string action_resend_aadhaar_otp
 string action_resend_bank_otp
 string action_settings
 string action_show
-string activity_result_invalid_parameters
-string activity_result_invalid_url
 string adapter_acc_no
 string add
 string add_account
@@ -2939,8 +2918,6 @@ string enter_valid_vpa
 string enter_vpa_name
 string enter_wait_sms
 string enter_your_query
-string err_name_not_resolved_message
-string err_name_not_resolved_title
 string error_message_aadhaar_otp
 string error_message_atm_pin
 string error_message_bank_otp
@@ -3490,7 +3467,6 @@ style CardView
 style CardView_Dark
 style CardView_Light
 style CheckoutLabel
-style CheckoutTheme
 style CircularButton
 style MyRadioButtonStyle
 style MySpinnerStyle
@@ -3975,5 +3951,4 @@ styleable ViewCircleImage civ_border_color civ_border_overlay civ_border_width c
 styleable ViewStubCompat android_id android_inflatedId android_layout
 styleable ViewTransition SharedValue SharedValueId android_id clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
-xml file_provider_path_checkout
 xml network_security_config

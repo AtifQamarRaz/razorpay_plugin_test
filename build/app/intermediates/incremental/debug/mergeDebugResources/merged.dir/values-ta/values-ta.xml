@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="AJ">கார்டு பயன்பாட்டில் இல்லை</string>
+    <string name="SP"> பொருந்தாத / தவறான ஏடிஎம் பின்</string>
+    <string name="U76">யுபிஐ பின் பதிவு வடிவத்தை கார்டு வழங்கிய வங்கி அதரிக்கவில்லை</string>
+    <string name="URL_error">தவறான URL</string>
+    <string name="aadhaar_otp_info_2"> ஆதார்-OTP தானாகவே படிக்கப்பட்டுவிடும்</string>
+    <string name="aadhaar_otp_limit_info"> ஆதார்-OTP வரம்பு மீறிவிட்டது</string>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"முகப்பிற்கு வழிசெலுத்து"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"மேலே செல்"</string>
     <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"மேலும் விருப்பங்கள்"</string>
@@ -27,6 +33,78 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"இதனுடன் பகிர்"</string>
     <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> மூலம் பகிர்"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"சுருக்கு"</string>
+    <string name="action_hide">மறைக்கவும்</string>
+    <string name="action_resend">ஓ.டி.பிமீண்டும்அனுப்பவும்</string>
+    <string name="action_resend_aadhaar_otp">ஆதார்-OTP மீண்டும் அனுப்புக</string>
+    <string name="action_resend_bank_otp">வங்கி-OTP மீண்டும் அனுப்புக</string>
+    <string name="action_show">காட்டவும்</string>
+    <string name="back_button_exit_message">வெளியேறுவதற்கு மறுபடியும் பேக் பட்டன்-ஐ தயவுசெய்து அழுத்தவும்</string>
+    <string name="bank_error">வங்கியுடன் தொடர்புகொள்ள இயலவில்லை. மறுபடியும் முயற்சி செய்யவும்</string>
+    <string name="bank_otp_info_2">வங்கி--OTP தானாகவே படிக்கப்பட்டுவிடும்</string>
+    <string name="bank_otp_limit_info">வங்கி--OTP வரம்பு மீறிவிட்டது</string>
+    <string name="card_expiry_title">%1$s இறுதி எண்களுள்ள கார்டின் கெடு தேதி</string>
+    <string name="card_info">%1$s கணக்கில் உங்களுக்கு வழங்கப்பட்ட %2$s டெபிட் கார்டை சரிபாருங்கள்</string>
+    <string name="card_number_title">டெபிட் கார்டின் கடைசி 6 இலக்கங்கள்</string>
+    <string name="componentMessage">கோரப்பட்ட தகவலை தயவுசெய்து உள்ளிடவும்</string>
+    <string name="component_message">கோரப்பட்ட தகவலை தயவுசெய்து உள்ளிடவும்</string>
+    <string name="detecting_otp">ஓ.டி.பி ரீடிங்செய்யப்படுகிறது</string>
+    <string name="dismiss">நிராகரிப்பு</string>
+    <string name="edit_card_number">கார்டு எண். உள்ளதைத் திருத்தவும்</string>
+    <string name="educational_info_aadhaar_otp">SMS வாயிலாக ஆதார்-OTP உங்கள் பதிவு செய்யப்பட்ட மொபைல் எண்ணிற்கு அனுப்பி வைக்கப்பட்டுள்ளது</string>
+    <string name="educational_info_atm">ஆட்டோமேட்டட் டெல்லர் மெஷின் (ஏ.டி.எம்) மற்றும் பாயிண்ட் ஆஃப் சேல் (பி.ஓ.எஸ்) பரிவர்த்தனைகளின் போது மென்யூவல்-ஆக கார்டு வைத்திருப்போர் உள்ளிட்ட பின்.</string>
+    <string name="educational_info_bank_otp">உங்கள் பதிவு செய்யப்பட்ட மொபைல் எண்ணிற்கு வங்கி--OTP அனுப்பி வைக்கப்பட்டுள்ளது</string>
+    <string name="educational_info_otp">உங்கள் பதிவு செய்யப்பட்ட மொபைல் எண்ணுக்கு எஸ்.எம்.எஸ் வழியாக ஓ.டி.பி அனுப்பப்பட்டுள்ளது.</string>
+    <string name="educational_info_upi">யூ.பி.ஐ பின் உங்கள் கணக்கை அங்கீகரிக்கப்படாத அணுகல் மூலம் பாதுகாப்பாக வைக்கும். யாருடனும் இந்த பின்-ஐ பகிர வேண்டாம்.</string>
+    <string name="educational_info_upi_debit">யு.பி.ஐ பின்னை அங்கீகரிக்கப்பட்டால் கணக்கு பற்று வைக்கப்படும்</string>
+    <string name="educational_info_upi_debitnew">உங்கள் கணக்கிலிருந்து பணத்தை அனுப்பும் கணக்கு %1$s</string>
+    <string name="educational_info_upi_mandate">நீங்கள் மேன்டேட் தொடர்புடைய பரிவர்த்தனையினை இதற்கு மேற்கொள்கிறீர்கள் %1$s</string>
+    <string name="educational_info_upi_mandate_create">நீங்கள் மேன்டேட்டினை இவருக்கு உருவாக்குகிறீர்கள் %1$s</string>
+    <string name="educational_info_upi_mandate_modify">நீங்கள் திருத்தும் மேன்டேட் %1$s</string>
+    <string name="educational_info_upi_mandate_pause">தற்காலிகமாக மேன்டேட்டினை நிறுத்தி வைக்கிறீர்கள் %1$s</string>
+    <string name="educational_info_upi_mandate_register">நீங்கள் இவருக்கு மேன்டேட்டினை பதிவு செய்கிறீர்கள் %1$s</string>
+    <string name="educational_info_upi_mandate_revoke">நீங்கள் மேன்டேட்டினை திரும்பப் பெறுகிறீர்கள் %1$s</string>
+    <string name="educational_info_upi_mandate_unpause">மேன்டேட்டினை மீண்டும் செயல்படுத்துகிறீர்கள் %1$s</string>
+    <string name="error_message_aadhaar_otp">%1$d-இலக்க ஆதார்--OTP உள்ளிடுக</string>
+    <string name="error_message_atm_pin">தயவுசெய்து %1$d இலக்க ஏ.டி.எம் பின்-ஐ உள்ளிடவும்</string>
+    <string name="error_message_bank_otp">%1$d-இலக்க வங்கி--OTP உள்ளிடுக</string>
+    <string name="error_message_card_no">டெபிட் கார்டின் கடைசி 6 இலக்கங்களை நிரப்புங்கள்</string>
+    <string name="error_message_card_validity">கார்டு கெடு தேதியை நிரப்புங்கள்</string>
+    <string name="error_message_card_validity_invalid">கார்டு கெடு தேி தவறு</string>
+    <string name="error_message_mpin">தயவுசெய்து %1$d இலக்க யூ.பி.ஐ பின்-ஐ உள்ளிடவும்</string>
+    <string name="error_message_otp">தயவுசெய்து %1$d இலக்க ஓ.டி.பி-ஐ உள்ளிடவும்</string>
+    <string name="error_msg">தொழில்நுட்ப சிக்கல், தயவுசெய்து சிறிது நேரம் கழித்து முயற்சிக்கவும்</string>
+    <string name="forgot_upi">யூ.பி.ஐ பின்-ஐ மறந்துவிட்டீர்களா?</string>
+    <string name="go_back">பின்னேசெல்லவும்</string>
+    <string name="info">தகவல்</string>
+    <string name="info_pin_not_match">பின் பொருந்தவில்லை. மீண்டும் முயற்சி செய்யவும்</string>
+    <string name="info_pins_dont_match">பின்பொருந்தவில்லை</string>
+    <string name="invalid_otp">தவறான ஒ.டி.பி</string>
+    <string name="mobile_lock_desc">மொபைல் பூட்டு</string>
+    <string name="mobile_lock_header">மொபைல் பூட்டை இயக்கவும்</string>
+    <string name="mobile_lock_text">உங்கள் மொபைலில் பூட்டுத்திரை இல்லை. இந்த ஓட்டத்தை செயல்படுத்த மொபைல் பூட்டை அமைக்கவும்.</string>
+    <string name="mobile_lock_title">செயலி அனுமதி</string>
+    <string name="network_check_message">தயவுசெய்து உங்கள் டேட்டா நெட்வொர்க்கை சரிபார்க்கவும் அல்லது செயலில் உள்ள வைபை நெட்வொர்க்குக்கு மாறவும்.</string>
+    <string name="network_not_available">மொபைல் நெட்வொர்க் கிடைக்கவில்லை</string>
+    <string name="no_internet">இணைய இணைப்பு இல்லை</string>
+    <string name="not_right">ஏதோதவறுஇருக்கிறது</string>
+    <string name="npci_aadhaar_otp_title">%1$d-இலக்க ஆதார்--OTP உள்ளிடுக</string>
+    <string name="npci_atm_title">" %1$d-இலக்க ஏ.டி.எம் பின்-ஐ உள்ளிடவும்"</string>
+    <string name="npci_bank_otp_title">%1$d-இலக்க வங்கி--OTP உள்ளிடுக</string>
+    <string name="npci_confirm_mpin_title">%1$d-இலக்க யூ.பி.ஐ பின்-ஐ உறுதிப்படுத்தவும்</string>
+    <string name="npci_confirm_new_mpin_title">%1$d-இலக்க புதிய யூ.பி.ஐ பின்-ஐ உறுதிப்படுத்தவும்</string>
+    <string name="npci_mpin_title"> %1$d-இலக்க யூ.பி.ஐ பின்-ஐ உள்ளிடவும்</string>
+    <string name="npci_new_mpin_title">%1$d-இலக்க புதிய யூ.பி.ஐ பின்-ஐ உள்ளிடவும்</string>
+    <string name="npci_old_mpin_title">%1$d-இலக்க பழைய யூ.பி.ஐ பின்-ஐ உள்ளிடவும்</string>
+    <string name="npci_otp_title">%1$d இலக்க ஓ.டி.பி-ஐ உள்ளிடவும்</string>
+    <string name="npci_set_mpin_title">%1$d-இலக்க யூ.பி.ஐ பின்-ஐ அமைக்கவும்</string>
+    <string name="otp_error">செல்லுபடியாகும் OTP ஐ உள்ளிடவும்</string>
+    <string name="otp_info_2">ஓ.டி.பி தானாகவே வாசிக்கப்படும்.</string>
+    <string name="otp_limit_info">ஓ.டி.பி வரம்பு மீறிவிட்டது</string>
+    <string name="referesh_message">இது உங்கள் வங்கியுடன் பாதுகாப்பான இணைப்பை மீண்டும் நிறுவும்</string>
+    <string name="refresh_page">பக்கத்தை ரெப்ரஸ் செய்யவும்</string>
     <string msgid="146198913615257606" name="search_menu_title">"தேடு"</string>
+    <string name="settings_text">அமைப்புகளுக்குச் செல்லவும்</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="submitting_details">உங்கள் விபரங்கள் அனுப்பப்படுகின்றன</string>
+    <string name="waiting_for_otp">ஓ.டி.பி காத்திருக்கிறது</string>
 </resources>

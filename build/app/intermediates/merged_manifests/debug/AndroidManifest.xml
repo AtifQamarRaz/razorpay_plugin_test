@@ -13,7 +13,15 @@
          to allow setting breakpoints, to provide hot reload, etc.
     -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <queries>
         <intent>
@@ -94,10 +102,13 @@
 
     <application
         android:name="android.app.Application"
+        android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="razorpay_plugin_test" >
+        android:label="razorpay_plugin_test"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true" >
         <activity
             android:name="com.atifqamar.razorpay_plugin_test.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
@@ -130,6 +141,39 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+        <activity
+            android:name="org.npci.upi.security.pinactivitycomponent.UserAuthInfoActivity"
+            android:theme="@style/ActivityTheme" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="org.npci.upi.security.pinactivitycomponent.GetCredential"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="org.npci.upi.security.pinactivitycomponent.GetCredential" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="org.npci.upi.security.pinactivitycomponent.CLRemoteServiceImpl"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="org.npci.upi.security.services.CLRemoteService" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.razorpay.plugin.upi_turbo"
+            android:value="com.razorpay.RazorpayTurbo" />
         <meta-data
             android:name="com.razorpay.plugin.googlepay_all"
             android:value="com.razorpay.RzpGpayMerged" />

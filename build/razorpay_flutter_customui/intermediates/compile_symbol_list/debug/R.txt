@@ -1810,7 +1810,6 @@ int drawable ic_action_reload_white 0x0
 int drawable ic_action_submit 0x0
 int drawable ic_add 0x0
 int drawable ic_add_square 0x0
-int drawable ic_alert 0x0
 int drawable ic_arrow_back 0x0
 int drawable ic_arrow_back_white 0x0
 int drawable ic_arrow_next 0x0
@@ -1841,11 +1840,10 @@ int drawable ic_refresh 0x0
 int drawable ic_rzp_logo 0x0
 int drawable ic_search_active 0x0
 int drawable ic_search_inactive 0x0
-int drawable ic_setting 0x0
 int drawable ic_sim1_logo 0x0
 int drawable ic_sim2_logo 0x0
+int drawable ic_sms 0x0
 int drawable ic_tick_green_solid 0x0
-int drawable ic_tick_mark 0x0
 int drawable ic_tick_ok 0x0
 int drawable ic_upi_npci_logo 0x0
 int drawable ic_visibility_blue_24px 0x0
@@ -1889,15 +1887,9 @@ int drawable rounded_corners_2 0x0
 int drawable rounded_corners_3 0x0
 int drawable roundedcorner1 0x0
 int drawable roundedcorner2 0x0
-int drawable rzp_border 0x0
-int drawable rzp_border_bottom 0x0
-int drawable rzp_green_button 0x0
 int drawable rzp_loader_circle 0x0
 int drawable rzp_logo 0x0
 int drawable rzp_name_logo 0x0
-int drawable rzp_poweredby 0x0
-int drawable rzp_secured_by_bg 0x0
-int drawable rzp_white_border_black_bg 0x0
 int drawable sbi_logo 0x0
 int drawable snackbar_background 0x0
 int drawable stroked_rectangle_bg 0x0
@@ -2006,6 +1998,7 @@ int id blocking 0x0
 int id bottom 0x0
 int id bounce 0x0
 int id brandingLayout 0x0
+int id brandingParentView 0x0
 int id btn 0x0
 int id btnAllowPermissions 0x0
 int id btnChangeBank 0x0
@@ -2029,7 +2022,6 @@ int id center_vertical 0x0
 int id chain 0x0
 int id chain2 0x0
 int id chargestext_single 0x0
-int id check_list 0x0
 int id checkbox 0x0
 int id checkboxlayout 0x0
 int id checked 0x0
@@ -2172,7 +2164,6 @@ int id ivSearch 0x0
 int id ivUPILogo 0x0
 int id ivWarning 0x0
 int id ivWarningLogo 0x0
-int id iv_check_mark 0x0
 int id iv_rzp_name_logo 0x0
 int id jumpToEnd 0x0
 int id jumpToStart 0x0
@@ -2282,10 +2273,6 @@ int id rvBanks 0x0
 int id rvLinkedAccounts 0x0
 int id rvPopularBanks 0x0
 int id rvVpas 0x0
-int id rzp_innerbox 0x0
-int id rzp_outerbox 0x0
-int id rzp_securedpayments 0x0
-int id rzp_theMainMagicView 0x0
 int id save_image_matrix 0x0
 int id save_non_transition_alpha 0x0
 int id save_scale_type 0x0
@@ -2454,8 +2441,6 @@ int id tvYes 0x0
 int id tv_acc_or_payee 0x0
 int id tv_acc_or_payee_name 0x0
 int id tv_powered_by 0x0
-int id tv_sub_item 0x0
-int id tv_title 0x0
 int id txtScenario 0x0
 int id unchecked 0x0
 int id uniform 0x0
@@ -2621,12 +2606,9 @@ int layout notification_template_part_time 0x0
 int layout popular_banks_item 0x0
 int layout rzp_button 0x0
 int layout rzp_loader 0x0
-int layout rzp_magic_base 0x0
-int layout sdk_integration_status 0x0
 int layout select_dialog_item_material 0x0
 int layout select_dialog_multichoice_material 0x0
 int layout select_dialog_singlechoice_material 0x0
-int layout single_item 0x0
 int layout single_sim 0x0
 int layout snackbar_custom_view 0x0
 int layout support_simple_spinner_dropdown_item 0x0
@@ -2646,7 +2628,6 @@ int raw certificate1 0x0
 int raw checkmark_loader 0x0
 int raw circular_loader 0x0
 int raw rzp_config 0x0
-int raw rzp_config_checkout 0x0
 int raw rzp_config_customui 0x0
 int raw upi_turbo_loader 0x0
 int string AJ 0x0
@@ -2758,8 +2739,6 @@ int string action_resend_aadhaar_otp 0x0
 int string action_resend_bank_otp 0x0
 int string action_settings 0x0
 int string action_show 0x0
-int string activity_result_invalid_parameters 0x0
-int string activity_result_invalid_url 0x0
 int string adapter_acc_no 0x0
 int string add 0x0
 int string add_account 0x0
@@ -2938,8 +2917,6 @@ int string enter_valid_vpa 0x0
 int string enter_vpa_name 0x0
 int string enter_wait_sms 0x0
 int string enter_your_query 0x0
-int string err_name_not_resolved_message 0x0
-int string err_name_not_resolved_title 0x0
 int string error_message_aadhaar_otp 0x0
 int string error_message_atm_pin 0x0
 int string error_message_bank_otp 0x0
@@ -3489,7 +3466,6 @@ int style CardView 0x0
 int style CardView_Dark 0x0
 int style CardView_Light 0x0
 int style CheckoutLabel 0x0
-int style CheckoutTheme 0x0
 int style CircularButton 0x0
 int style MyRadioButtonStyle 0x0
 int style MySpinnerStyle 0x0
@@ -5565,5 +5541,4 @@ int styleable ViewTransition_upDuration 13
 int styleable ViewTransition_viewTransitionMode 14
 int[] styleable include { 0x0 }
 int styleable include_constraintSet 0
-int xml file_provider_path_checkout 0x0
 int xml network_security_config 0x0

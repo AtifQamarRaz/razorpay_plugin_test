@@ -41,12 +41,12 @@ class _SimDialogState extends State<SimDialog> {
                 : SizedBox(height: 2,),
             Container(
                 child: ListView.builder(
-                  shrinkWrap: true,
+                    shrinkWrap: true,
                     itemCount: widget.sims.length,
                     itemBuilder: (context, index) {
                       return ElevatedButton(
                           onPressed: () {
-                            widget.razorpay.register(widget.sims[index]);
+                            widget.razorpay.upiTurbo.register(sim : widget.sims[index]);
                             setState(() {
                               isLoadingForSim = true;
                             });

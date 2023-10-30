@@ -66,7 +66,6 @@ flutter {
 }
 
 dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation fileTree(dir: 'libs', include: ['*.aar'])
-    //implementation 'com.razorpay:customui:3.9.+'
+    implementation fileTree(include: ['*.aar'], dir: '/Users/atif.qamar/Desktop/TPV/TurboLib/')
+    implementation fileTree(include: ['*.aar'], dir: '/Users/atif.qamar/Desktop/TPV/CustomUILib/')
 }

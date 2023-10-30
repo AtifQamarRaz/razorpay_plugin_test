@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.atifqamar.razorpay_plugin_test.app-mergeDebugResources-13:/values-ka/values-ka.xml",
+            "outputFile": "com.atifqamar.razorpay_plugin_test.app-mergeDebugResources-16:/values-ka/values-ka.xml",
             "map": [
                 {
                     "source": "/Users/atif.qamar/.gradle/caches/transforms-3/aa6353fc115071c7ff083f29e67d8ce4/transformed/appcompat-1.0.1/res/values-ka/values-ka.xml",

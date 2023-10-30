@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="AJ">కార్డు యాక్లివ్ గా లేదు</string>
+    <string name="SP">ఎటిఎం పిన్ చెల్లదు/కరెక్టు కాదు</string>
+    <string name="U76">యుపిఐ పిన్ రిజిస్ట్రేషన్ ఫార్మాటును ఇష్యూయర్ బ్యాంకు సపోర్టు చేయలేదు</string>
+    <string name="URL_error">URL చెల్లదు</string>
+    <string name="aadhaar_otp_info_2">ఆధార్-OTPని ఆటో రీడ్ చేస్తారు.</string>
+    <string name="aadhaar_otp_limit_info">ఆధార్-OTP పరిమితిని దాటిపోయింది</string>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"హోమ్‌కు నావిగేట్ చేయండి"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"పైకి నావిగేట్ చేయండి"</string>
     <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"మరిన్ని ఎంపికలు"</string>
@@ -27,6 +33,78 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"వీరితో భాగస్వామ్యం చేయి"</string>
     <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>తో భాగస్వామ్యం చేయండి"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"కుదించండి"</string>
+    <string name="action_hide">దాచండి</string>
+    <string name="action_resend">ఓ.టి.పిమళ్ళిపంపించండి</string>
+    <string name="action_resend_aadhaar_otp">ఆధార్-OTPని తిరిగి పంపండి</string>
+    <string name="action_resend_bank_otp">బ్యాంక్-OTPని తిరిగి పంపండి</string>
+    <string name="action_show">చూపించండి</string>
+    <string name="back_button_exit_message">దయచేసి నిష్క్రమించడానికి మళ్లీ బ్యాక్ బటన్‌‌ని నొక్కండి</string>
+    <string name="bank_error">బ్యాంకుతో కనెక్టు కాలేకపోతున్నారు. దయచేసి మళ్ళీ ప్రయత్నించండి.</string>
+    <string name="bank_otp_info_2">బ్యాంక్-OTP ఆటో రీడ్ చేయబడుతుంది.</string>
+    <string name="bank_otp_limit_info">బ్యాంక్-OTP లిమిట్ అధిగమించబడింది</string>
+    <string name="card_expiry_title">%1$s తో ముగిసే కార్డు నం. చెల్లుబాటు</string>
+    <string name="card_info">మీ అకౌంట్ నంబరు %2$s కోసం మీకు జారీచేసిన డెబిట్ కార్డు %1$s ని చూడండి.</string>
+    <string name="card_number_title">డెబిట్ కార్డు యొక్క ఆఖరి 6 అంకెలు</string>
+    <string name="componentMessage">దయచేసి అభ్యర్థించిన సమాచారాన్ని నమోదు చేయండి</string>
+    <string name="component_message">దయచేసి అభ్యర్థించిన సమాచారాన్ని నమోదు చేయండి</string>
+    <string name="detecting_otp">ఓ.టి.పిరీడ్అవతుంది</string>
+    <string name="dismiss">తొలగించండి</string>
+    <string name="edit_card_number">కార్డు నం.ని ఎడిట్ చేయండి.</string>
+    <string name="educational_info_aadhaar_otp">ఆధార్-OTPని SMS ద్వారా మీ రిజిస్టర్డ్ మొబైల్ నెంబరుకు పంపారు.</string>
+    <string name="educational_info_atm">ఆటోమేటెడ్ టెల్లర్ మెషిన్ (ఏ.టి.ఎమ్) మరియు పాయింట్ ఆఫ్ సేల్(పి.ఓ.ఎస్) లావాదేవీల సమయంలో పిన్ మాన్యువల్‌‌గా కార్డు గ్రహీతతో నమోదుచేయబడుతుంది.</string>
+    <string name="educational_info_bank_otp">బ్యాంకు-OTP ని మీ రిజిస్టర్డ్ మొబైల్ నెంబరుకు SMS ద్వారా పంపారు.</string>
+    <string name="educational_info_otp">మీరు రిజిస్టర్ చేసుకున్న మొబైల్ నంబరు‌కి ఎస్.ఎమ్.ఎస్ ద్వారా ఓ.టి.పి పంపబడింది.</string>
+    <string name="educational_info_upi">యూ.పి.ఐ పిన్ అనధికార యాక్సిస్ నుండి మీ ఖాతాను సురక్షితంగా ఉంచుతుంది. ఈ పిన్‌‌ని ఎవరితోనూ షేర్ చేయకండి.</string>
+    <string name="educational_info_upi_debit">ಯುಪಿಐ ಪಿನ್ ಅನುಮೋದನೆ ಪಡೆದರೆ ಖಾತೆಯನ್ನು ಡೆಬಿಟ್ ಮಾಡಲಾಗುತ್ತದೆ</string>
+    <string name="educational_info_upi_debitnew">మీరు మీ ఖాతా నుంచి డబ్బును బదిలీ చేస్తున్నారు %1$s</string>
+    <string name="educational_info_upi_mandate">మీరు దీనికి విరుద్ధంగా లావాదేవీ మాండేట్ చేస్తున్నారు %1$s</string>
+    <string name="educational_info_upi_mandate_create">మీరు వీరికి మాండేట్ సృష్టిస్తున్నారు %1$s</string>
+    <string name="educational_info_upi_mandate_modify">మీరు వీరికి మాండేట్ సవరిస్తున్నారు %1$s</string>
+    <string name="educational_info_upi_mandate_pause">మీరు దీనికి మాండేట్ నిలిపివేస్తున్నారు %1$s</string>
+    <string name="educational_info_upi_mandate_register">మీరు వీరికి మాండేట్ రిజిస్టర్ చేస్తున్నారు %1$s</string>
+    <string name="educational_info_upi_mandate_revoke">మీరు దీనికి మాండేట్ రద్దు చేస్తున్నారు %1$s</string>
+    <string name="educational_info_upi_mandate_unpause">మీరు దీనిని అన్పాజ్ చేస్తున్నారు %1$s</string>
+    <string name="error_message_aadhaar_otp">దయచేసి %1$d అంకెల ఆధార్-OTPని నమోదు చేయండి</string>
+    <string name="error_message_atm_pin">దయచేసి %1$d అంకెల ఏ.టి.ఎమ్ పిన్‌‌‌ని నమోదు చేయండి</string>
+    <string name="error_message_bank_otp">దయచేసి %1$d అంకెల బ్యాంక్-OTPని నమోదు చేయండి</string>
+    <string name="error_message_card_no">డెబిట్ కార్డు యొక్క ఆఖరి 6 అంకెలు నమోదు చేయండి</string>
+    <string name="error_message_card_validity">దయచేసి కార్డు చెల్లుబాటును నమోదు చేయండి</string>
+    <string name="error_message_card_validity_invalid">చెల్లని కార్డు వ్యాలిడిటి</string>
+    <string name="error_message_mpin">దయచేసి %1$d-అంకెల యూ.పి.ఐ పిన్‌‌‌ని నమోదు చేయండి</string>
+    <string name="error_message_otp">దయచేసి %1$d-అంకెల ఓ.టి.పిని నమోదు చేయండి</string>
+    <string name="error_msg">సాంకేతిక సమస్య, దయచేసి కొంత సమయం తర్వాత ప్రయత్నించండి</string>
+    <string name="forgot_upi">యూ.పి.ఐ పిన్‌‌‌ మర్చిపోయారా?</string>
+    <string name="go_back">వెనక్కివెళ్ళు</string>
+    <string name="info">సమాచారం</string>
+    <string name="info_pin_not_match">పిన్ మ్యాచ్ అవ్వడం లేదు. మళ్ళీ ప్రయత్నించండి.</string>
+    <string name="info_pins_dont_match">పిన్స్సరిపోవడంలేదు</string>
+    <string name="invalid_otp">సరికాని ఓ.టి.పి</string>
+    <string name="mobile_lock_desc">మొబైల్ లాక్</string>
+    <string name="mobile_lock_header">మొబైల్ లాక్‌ను ప్రారంభించండి</string>
+    <string name="mobile_lock_text">మీ మొబైల్‌లో స్క్రీన్ లాక్ లేదు. దయచేసి ఈ ప్రవాహాన్ని ప్రారంభించడానికి మొబైల్ లాక్‌ను సెట్ చేయండి.</string>
+    <string name="mobile_lock_title">యాప్ అనుమతి</string>
+    <string name="network_check_message">దయచేసి మీ డేటా నెట్‌‌వర్క్‌‌‌ని తనిఖీ చేయండి లేదా యాక్టివ్ వైఫై నెట్‌‌వర్క్‌‌‌కి మారండి.</string>
+    <string name="network_not_available">మొబైల్ నెట్‌‌వర్క్ అందుబాటులో లేదు</string>
+    <string name="no_internet">ఇంటర్నెట్ కనెక్టివిటీ లేదు</string>
+    <string name="not_right">ఏదోతప్పుజరిగింది</string>
+    <string name="npci_aadhaar_otp_title">దయచేసి %1$d అంకెల ఆధార్-OTPని నమోదు చేయండి</string>
+    <string name="npci_atm_title">%1$d-అంకెల ఏ.టి.ఎమ్ పిన్‌‌‌ని నమోదు చేయండి</string>
+    <string name="npci_bank_otp_title">దయచేసి %1$d అంకెల బ్యాంక్-OTPని నమోదు చేయండి</string>
+    <string name="npci_confirm_mpin_title">%1$d-అంకెల యూ.పి.ఐ పిన్‌‌ని ద్రువీకరించండి</string>
+    <string name="npci_confirm_new_mpin_title">%1$d-అంకెల కొత్త యూ.పి.ఐ పిన్‌‌ని ద్రువీకరించండి</string>
+    <string name="npci_mpin_title">%1$d-అంకెల యూ.పి.ఐ పిన్‌‌‌ని నమోదు చేయండి</string>
+    <string name="npci_new_mpin_title">%1$d-అంకెల కొత్త యూ.పి.ఐ పిన్‌‌‌ని నమోదు చేయండి</string>
+    <string name="npci_old_mpin_title">%1$d-అంకెల పాత యూ.పి.ఐ పిన్‌‌‌ని నమోదు చేయండి</string>
+    <string name="npci_otp_title"> %1$d-అంకెల ఓ.టి.పిని నమోదు చేయండి</string>
+    <string name="npci_set_mpin_title">%1$d-అంకెల యూ.పి.ఐ పిన్‌‌‌ని సెట్ చేయండి</string>
+    <string name="otp_error">దయచేసి చెల్లుబాటు అయ్యే OTP ని నమోదు చేయండి</string>
+    <string name="otp_info_2">ఓ.టి.పి ఆటోమేటిక్‌‌గా తీసుకుంటుంది.</string>
+    <string name="otp_limit_info">ఓ.టి.పి పరిమితి మించిపోయింది</string>
+    <string name="referesh_message">ఇది మీ బ్యాంక్‌‌‌తో సురక్షిత కనెక్షన్‌‌ను తిరిగి ఏర్పాటు చేస్తుంది</string>
+    <string name="refresh_page">పేజీని రీఫ్రెష్ చేయండి</string>
     <string msgid="146198913615257606" name="search_menu_title">"వెతుకు"</string>
+    <string name="settings_text">సెట్టింగ్‌లకు వెళ్లండి</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="submitting_details">మీ వివరాలను సమర్పించండి</string>
+    <string name="waiting_for_otp">ఓ.టి.పి కోసం వేచి ఉంది</string>
 </resources>

@@ -15,259 +15,348 @@
 15    <uses-permission android:name="android.permission.INTERNET" />
 15-->/Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/android/app/src/main/AndroidManifest.xml:3:5-67
 15-->/Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/android/app/src/main/AndroidManifest.xml:3:22-64
-16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:8:5-79
-16-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:8:22-76
-17
-18    <queries>
-18-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:10:5-36:15
-19        <intent>
-19-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:11:9-17:18
-20            <action android:name="android.intent.action.VIEW" />
-20-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:12:13-65
-20-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:12:21-62
-21
-22            <data
-22-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:14:13-16:38
-23                android:mimeType="*/*"
-23-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:15:17-39
-24                android:scheme="*" />
-24-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:16:17-35
-25        </intent>
-26        <intent>
-26-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:18:9-27:18
-27            <action android:name="android.intent.action.VIEW" />
-27-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:12:13-65
-27-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:12:21-62
-28
-29            <category android:name="android.intent.category.BROWSABLE" />
-29-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:21:13-74
-29-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:21:23-71
-30
-31            <data
-31-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:14:13-16:38
-32                android:host="pay"
-33                android:mimeType="*/*"
-33-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:15:17-39
-34                android:scheme="upi" />
-34-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:16:17-35
-35        </intent>
-36        <intent>
-36-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:28:9-30:18
-37            <action android:name="android.intent.action.MAIN" />
-37-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:29:13-65
-37-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:29:21-62
-38        </intent>
-39        <intent>
-39-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:31:9-35:18
-40            <action android:name="android.intent.action.SEND" />
-40-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:32:13-65
-40-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:32:21-62
-41
-42            <data android:mimeType="*/*" />
-42-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:14:13-16:38
-42-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:15:17-39
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:11:5-75
+16-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:11:22-72
+17    <uses-permission android:name="android.permission.READ_SMS" />
+17-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:12:5-67
+17-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:12:22-64
+18    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+18-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:13:5-70
+18-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:13:22-67
+19    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+19-->[upi-psp-sdk-debug.aar] /Users/atif.qamar/.gradle/caches/transforms-3/22c9fcd0b6253966d0ef3798fdca593b/transformed/jetified-upi-psp-sdk-debug/AndroidManifest.xml:12:5-77
+19-->[upi-psp-sdk-debug.aar] /Users/atif.qamar/.gradle/caches/transforms-3/22c9fcd0b6253966d0ef3798fdca593b/transformed/jetified-upi-psp-sdk-debug/AndroidManifest.xml:12:22-74
+20    <uses-permission android:name="android.permission.SEND_SMS" />
+20-->[upi-psp-sdk-debug.aar] /Users/atif.qamar/.gradle/caches/transforms-3/22c9fcd0b6253966d0ef3798fdca593b/transformed/jetified-upi-psp-sdk-debug/AndroidManifest.xml:13:5-67
+20-->[upi-psp-sdk-debug.aar] /Users/atif.qamar/.gradle/caches/transforms-3/22c9fcd0b6253966d0ef3798fdca593b/transformed/jetified-upi-psp-sdk-debug/AndroidManifest.xml:13:22-64
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->[upi-psp-sdk-debug.aar] /Users/atif.qamar/.gradle/caches/transforms-3/22c9fcd0b6253966d0ef3798fdca593b/transformed/jetified-upi-psp-sdk-debug/AndroidManifest.xml:16:5-76
+21-->[upi-psp-sdk-debug.aar] /Users/atif.qamar/.gradle/caches/transforms-3/22c9fcd0b6253966d0ef3798fdca593b/transformed/jetified-upi-psp-sdk-debug/AndroidManifest.xml:16:22-73
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[upi-psp-sdk-debug.aar] /Users/atif.qamar/.gradle/caches/transforms-3/22c9fcd0b6253966d0ef3798fdca593b/transformed/jetified-upi-psp-sdk-debug/AndroidManifest.xml:17:5-79
+22-->[upi-psp-sdk-debug.aar] /Users/atif.qamar/.gradle/caches/transforms-3/22c9fcd0b6253966d0ef3798fdca593b/transformed/jetified-upi-psp-sdk-debug/AndroidManifest.xml:17:22-76
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+23-->[upi-psp-sdk-debug.aar] /Users/atif.qamar/.gradle/caches/transforms-3/22c9fcd0b6253966d0ef3798fdca593b/transformed/jetified-upi-psp-sdk-debug/AndroidManifest.xml:18:5-81
+23-->[upi-psp-sdk-debug.aar] /Users/atif.qamar/.gradle/caches/transforms-3/22c9fcd0b6253966d0ef3798fdca593b/transformed/jetified-upi-psp-sdk-debug/AndroidManifest.xml:18:22-78
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+24-->[upi-psp-sdk-debug.aar] /Users/atif.qamar/.gradle/caches/transforms-3/22c9fcd0b6253966d0ef3798fdca593b/transformed/jetified-upi-psp-sdk-debug/AndroidManifest.xml:19:5-79
+24-->[upi-psp-sdk-debug.aar] /Users/atif.qamar/.gradle/caches/transforms-3/22c9fcd0b6253966d0ef3798fdca593b/transformed/jetified-upi-psp-sdk-debug/AndroidManifest.xml:19:22-76
+25
+26    <queries>
+26-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:10:5-36:15
+27        <intent>
+27-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:11:9-17:18
+28            <action android:name="android.intent.action.VIEW" />
+28-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:12:13-65
+28-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:12:21-62
+29
+30            <data
+30-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:14:13-16:38
+31                android:mimeType="*/*"
+31-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:15:17-39
+32                android:scheme="*" />
+32-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:16:17-35
+33        </intent>
+34        <intent>
+34-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:18:9-27:18
+35            <action android:name="android.intent.action.VIEW" />
+35-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:12:13-65
+35-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:12:21-62
+36
+37            <category android:name="android.intent.category.BROWSABLE" />
+37-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:21:13-74
+37-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:21:23-71
+38
+39            <data
+39-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:14:13-16:38
+40                android:host="pay"
+41                android:mimeType="*/*"
+41-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:15:17-39
+42                android:scheme="upi" />
+42-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:16:17-35
 43        </intent>
-44        <!-- List of apps which you want to support for Intent pay -->
-45        <package android:name="com.google.android.apps.nbu.paisa.user" />
-45-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-74
-45-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:12:18-71
-46        <package android:name="com.phonepe.app" />
-46-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-51
-46-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:13:18-48
-47        <package android:name="in.org.npci.upiapp" />
-47-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-54
-47-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-51
-48        <package android:name="com.google.android.apps.nbu.paisa.user" />
-48-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-74
-48-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:12:18-71
-49        <package android:name="in.org.npci.upiapp" />
-49-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-54
-49-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-51
-50        <package android:name="com.phonepe.app" />
-50-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-51
-50-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:13:18-48
-51        <package android:name="com.myairtelapp" />
-51-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-51
-51-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:18:18-48
-52        <package android:name="com.myairtelapp.debug" />
-52-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-57
-52-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:19:18-54
-53        <package android:name="com.csam.icici.bank.imobile" />
-53-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-63
-53-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:20:18-60
-54        <package android:name="net.one97.paytm" />
-54-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-51
-54-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:21:18-48
-55        <package android:name="com.sbi.upi" />
-55-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-47
-55-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:22:18-44
-56        <package android:name="com.upi.axispay" />
-56-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-51
-56-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:23:18-48
-57        <package android:name="com.samsung.android.spaymini" />
-57-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:24:9-64
-57-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:24:18-61
-58        <package android:name="com.samsung.android.spay" />
-58-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-60
-58-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:25:18-57
-59        <package android:name="com.snapwork.hdfc" />
-59-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-53
-59-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:26:18-50
-60        <package android:name="com.fss.pnbpsp" />
-60-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-50
-60-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:27:18-47
-61        <package android:name="com.icicibank.pockets" />
-61-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-57
-61-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:28:18-54
-62        <package android:name="com.bankofbaroda.upi" />
-62-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-56
-62-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:29:18-53
-63        <package android:name="com.freecharge.android" />
-63-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:30:9-58
-63-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:30:18-55
-64        <package android:name="com.fss.unbipsp" />
-64-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:31:9-51
-64-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:31:18-48
-65        <package android:name="com.axis.mobile" />
-65-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-51
-65-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:32:18-48
-66        <package android:name="com.mycompany.kvb" />
-66-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:33:9-53
-66-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:33:18-50
-67        <package android:name="com.fss.vijayapsp" />
-67-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-53
-67-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:34:18-50
-68        <package android:name="com.dena.upi.gui" />
-68-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-52
-68-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:35:18-49
-69        <package android:name="com.fss.jnkpsp" />
-69-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:36:9-50
-69-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:36:18-47
-70        <package android:name="com.olive.kotak.upi" />
-70-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-55
-70-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:37:18-52
-71        <package android:name="com.enstage.wibmo.hdfc" />
-71-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-58
-71-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:38:18-55
-72        <package android:name="com.bsb.hike" />
-72-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:39:9-48
-72-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:39:18-45
-73        <package android:name="com.fss.idfcpsp" />
-73-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-51
-73-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:40:18-48
-74        <package android:name="com.YesBank" />
-74-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:41:9-47
-74-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:41:18-44
-75        <package android:name="com.abipbl.upi" />
-75-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:42:9-50
-75-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:42:18-47
-76        <package android:name="com.microsoft.mobile.polymer" />
-76-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-64
-76-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:43:18-61
-77        <package android:name="com.finopaytech.bpayfino" />
-77-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:44:9-60
-77-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:44:18-57
-78        <package android:name="com.mgs.obcbank" />
-78-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:45:9-51
-78-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:45:18-48
-79        <package android:name="com.upi.federalbank.org.lotza" />
-79-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:46:9-65
-79-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:46:18-62
-80        <package android:name="com.mgs.induspsp" />
-80-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:47:9-52
-80-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:47:18-49
-81        <package android:name="ai.wizely.android" />
-81-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:48:9-53
-81-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:48:18-50
-82        <package android:name="com.olive.dcb.upi" />
-82-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:49:9-53
-82-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:49:18-50
-83        <package android:name="com.mgs.yesmerchantnative.prod" />
-83-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:50:9-66
-83-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:50:18-63
-84        <package android:name="com.example.demo" />
-84-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:51:9-52
-84-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:51:18-49
-85        <package android:name="in.amazon.mShop.android.shopping" />
-85-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:52:9-68
-85-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:52:18-65
-86        <!--
-87             Specific intents you query for,
-88             eg: for a custom share UI
-89        -->
-90        <intent>
-90-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:58:9-60:18
-91            <action android:name="android.intent.action.SEND" />
-91-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:32:13-65
-91-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:32:21-62
-92        </intent>
-93    </queries>
-94
-95    <application
-96        android:name="android.app.Application"
-97        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-97-->[androidx.core:core:1.6.0] /Users/atif.qamar/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
-98        android:debuggable="true"
-99        android:icon="@mipmap/ic_launcher"
-100        android:label="razorpay_plugin_test" >
-101        <activity
-102            android:name="com.atifqamar.razorpay_plugin_test.MainActivity"
-103            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-104            android:exported="true"
-105            android:hardwareAccelerated="true"
-106            android:launchMode="singleTop"
-107            android:theme="@style/LaunchTheme"
-108            android:windowSoftInputMode="adjustResize" >
-109
-110            <!--
-111                 Specifies an Android theme to apply to this Activity as soon as
-112                 the Android process has started. This theme is visible to the user
-113                 while the Flutter UI initializes. After that, this theme continues
-114                 to determine the Window background behind the Flutter UI.
-115            -->
-116            <meta-data
-117                android:name="io.flutter.embedding.android.NormalTheme"
-118                android:resource="@style/NormalTheme" />
-119
-120            <intent-filter>
-121                <action android:name="android.intent.action.MAIN" />
-121-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:29:13-65
-121-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:29:21-62
-122
-123                <category android:name="android.intent.category.LAUNCHER" />
-124            </intent-filter>
-125        </activity>
-126        <!--
-127             Don't delete the meta-data below.
-128             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-129        -->
-130        <meta-data
-131            android:name="flutterEmbedding"
-132            android:value="2" />
-133        <meta-data
-133-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:39:9-41:58
-134            android:name="com.razorpay.plugin.googlepay_all"
-134-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:40:13-61
-135            android:value="com.razorpay.RzpGpayMerged" />
-135-->[customui-uat-010823-1528.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9f62d4b57c359f36585280e43208e224/transformed/jetified-customui-uat-010823-1528/AndroidManifest.xml:41:13-55
-136
-137        <activity android:name="com.razorpay.flutter_customui.RazorpayPaymentActivity" />
-137-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:64:9-90
-137-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:64:19-87
-138
-139        <uses-library
-139-->[androidx.window:window:1.0.0-beta04] /Users/atif.qamar/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-140            android:name="androidx.window.extensions"
-140-->[androidx.window:window:1.0.0-beta04] /Users/atif.qamar/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-141            android:required="false" />
-141-->[androidx.window:window:1.0.0-beta04] /Users/atif.qamar/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-142        <uses-library
-142-->[androidx.window:window:1.0.0-beta04] /Users/atif.qamar/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-143            android:name="androidx.window.sidecar"
-143-->[androidx.window:window:1.0.0-beta04] /Users/atif.qamar/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-144            android:required="false" />
-144-->[androidx.window:window:1.0.0-beta04] /Users/atif.qamar/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-145    </application>
-146
-147</manifest>
+44        <intent>
+44-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:28:9-30:18
+45            <action android:name="android.intent.action.MAIN" />
+45-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:29:13-65
+45-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:29:21-62
+46        </intent>
+47        <intent>
+47-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:31:9-35:18
+48            <action android:name="android.intent.action.SEND" />
+48-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:32:13-65
+48-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:32:21-62
+49
+50            <data android:mimeType="*/*" />
+50-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:14:13-16:38
+50-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:15:17-39
+51        </intent>
+52        <!-- List of apps which you want to support for Intent pay -->
+53        <package android:name="com.google.android.apps.nbu.paisa.user" />
+53-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-74
+53-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:12:18-71
+54        <package android:name="com.phonepe.app" />
+54-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-51
+54-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:13:18-48
+55        <package android:name="in.org.npci.upiapp" />
+55-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-54
+55-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-51
+56        <package android:name="com.google.android.apps.nbu.paisa.user" />
+56-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-74
+56-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:12:18-71
+57        <package android:name="in.org.npci.upiapp" />
+57-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-54
+57-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-51
+58        <package android:name="com.phonepe.app" />
+58-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-51
+58-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:13:18-48
+59        <package android:name="com.myairtelapp" />
+59-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-51
+59-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:18:18-48
+60        <package android:name="com.myairtelapp.debug" />
+60-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-57
+60-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:19:18-54
+61        <package android:name="com.csam.icici.bank.imobile" />
+61-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-63
+61-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:20:18-60
+62        <package android:name="net.one97.paytm" />
+62-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-51
+62-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:21:18-48
+63        <package android:name="com.sbi.upi" />
+63-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-47
+63-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:22:18-44
+64        <package android:name="com.upi.axispay" />
+64-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-51
+64-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:23:18-48
+65        <package android:name="com.samsung.android.spaymini" />
+65-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:24:9-64
+65-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:24:18-61
+66        <package android:name="com.samsung.android.spay" />
+66-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-60
+66-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:25:18-57
+67        <package android:name="com.snapwork.hdfc" />
+67-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-53
+67-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:26:18-50
+68        <package android:name="com.fss.pnbpsp" />
+68-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-50
+68-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:27:18-47
+69        <package android:name="com.icicibank.pockets" />
+69-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-57
+69-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:28:18-54
+70        <package android:name="com.bankofbaroda.upi" />
+70-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-56
+70-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:29:18-53
+71        <package android:name="com.freecharge.android" />
+71-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:30:9-58
+71-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:30:18-55
+72        <package android:name="com.fss.unbipsp" />
+72-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:31:9-51
+72-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:31:18-48
+73        <package android:name="com.axis.mobile" />
+73-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-51
+73-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:32:18-48
+74        <package android:name="com.mycompany.kvb" />
+74-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:33:9-53
+74-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:33:18-50
+75        <package android:name="com.fss.vijayapsp" />
+75-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-53
+75-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:34:18-50
+76        <package android:name="com.dena.upi.gui" />
+76-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-52
+76-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:35:18-49
+77        <package android:name="com.fss.jnkpsp" />
+77-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:36:9-50
+77-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:36:18-47
+78        <package android:name="com.olive.kotak.upi" />
+78-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-55
+78-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:37:18-52
+79        <package android:name="com.enstage.wibmo.hdfc" />
+79-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-58
+79-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:38:18-55
+80        <package android:name="com.bsb.hike" />
+80-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:39:9-48
+80-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:39:18-45
+81        <package android:name="com.fss.idfcpsp" />
+81-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-51
+81-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:40:18-48
+82        <package android:name="com.YesBank" />
+82-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:41:9-47
+82-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:41:18-44
+83        <package android:name="com.abipbl.upi" />
+83-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:42:9-50
+83-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:42:18-47
+84        <package android:name="com.microsoft.mobile.polymer" />
+84-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-64
+84-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:43:18-61
+85        <package android:name="com.finopaytech.bpayfino" />
+85-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:44:9-60
+85-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:44:18-57
+86        <package android:name="com.mgs.obcbank" />
+86-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:45:9-51
+86-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:45:18-48
+87        <package android:name="com.upi.federalbank.org.lotza" />
+87-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:46:9-65
+87-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:46:18-62
+88        <package android:name="com.mgs.induspsp" />
+88-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:47:9-52
+88-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:47:18-49
+89        <package android:name="ai.wizely.android" />
+89-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:48:9-53
+89-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:48:18-50
+90        <package android:name="com.olive.dcb.upi" />
+90-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:49:9-53
+90-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:49:18-50
+91        <package android:name="com.mgs.yesmerchantnative.prod" />
+91-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:50:9-66
+91-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:50:18-63
+92        <package android:name="com.example.demo" />
+92-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:51:9-52
+92-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:51:18-49
+93        <package android:name="in.amazon.mShop.android.shopping" />
+93-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:52:9-68
+93-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:52:18-65
+94        <!--
+95             Specific intents you query for,
+96             eg: for a custom share UI
+97        -->
+98        <intent>
+98-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:58:9-60:18
+99            <action android:name="android.intent.action.SEND" />
+99-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:32:13-65
+99-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:32:21-62
+100        </intent>
+101    </queries>
+102
+103    <application
+104        android:name="android.app.Application"
+105        android:allowBackup="false"
+105-->[olive-0408231650.aar] /Users/atif.qamar/.gradle/caches/transforms-3/2816d122f08708e15bfa9f9c74c6861a/transformed/jetified-olive-0408231650/AndroidManifest.xml:12:9-36
+106        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+106-->[androidx.core:core:1.6.0] /Users/atif.qamar/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+107        android:debuggable="true"
+108        android:icon="@mipmap/ic_launcher"
+109        android:label="razorpay_plugin_test"
+110        android:networkSecurityConfig="@xml/network_security_config"
+110-->[upi-psp-sdk-debug.aar] /Users/atif.qamar/.gradle/caches/transforms-3/22c9fcd0b6253966d0ef3798fdca593b/transformed/jetified-upi-psp-sdk-debug/AndroidManifest.xml:22:9-69
+111        android:supportsRtl="true" >
+111-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:15:18-44
+112        <activity
+113            android:name="com.atifqamar.razorpay_plugin_test.MainActivity"
+114            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+115            android:exported="true"
+116            android:hardwareAccelerated="true"
+117            android:launchMode="singleTop"
+118            android:theme="@style/LaunchTheme"
+119            android:windowSoftInputMode="adjustResize" >
+120
+121            <!--
+122                 Specifies an Android theme to apply to this Activity as soon as
+123                 the Android process has started. This theme is visible to the user
+124                 while the Flutter UI initializes. After that, this theme continues
+125                 to determine the Window background behind the Flutter UI.
+126            -->
+127            <meta-data
+128                android:name="io.flutter.embedding.android.NormalTheme"
+129                android:resource="@style/NormalTheme" />
+130
+131            <intent-filter>
+132                <action android:name="android.intent.action.MAIN" />
+132-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:29:13-65
+132-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:29:21-62
+133
+134                <category android:name="android.intent.category.LAUNCHER" />
+135            </intent-filter>
+136        </activity>
+137        <!--
+138             Don't delete the meta-data below.
+139             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+140        -->
+141        <meta-data
+142            android:name="flutterEmbedding"
+143            android:value="2" />
+144
+145        <activity
+145-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:16:9-18:52
+146            android:name="org.npci.upi.security.pinactivitycomponent.UserAuthInfoActivity"
+146-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:17:13-91
+147            android:theme="@style/ActivityTheme" />
+147-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:18:13-49
+148
+149        <uses-library
+149-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:20:9-22:40
+150            android:name="org.apache.http.legacy"
+150-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:21:13-50
+151            android:required="false" />
+151-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:22:13-37
+152
+153        <activity
+153-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:24:9-34:20
+154            android:name="org.npci.upi.security.pinactivitycomponent.GetCredential"
+154-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:25:13-84
+155            android:excludeFromRecents="true"
+155-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:26:13-46
+156            android:exported="false"
+156-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:27:13-37
+157            android:screenOrientation="portrait"
+157-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:28:13-49
+158            android:theme="@style/ActivityTheme"
+158-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:29:13-49
+159            android:windowSoftInputMode="stateHidden" >
+159-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:30:13-54
+160            <intent-filter>
+160-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:31:13-33:29
+161                <action android:name="org.npci.upi.security.pinactivitycomponent.GetCredential" />
+161-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:32:17-99
+161-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:32:25-96
+162            </intent-filter>
+163        </activity>
+164
+165        <service
+165-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:36:9-43:19
+166            android:name="org.npci.upi.security.pinactivitycomponent.CLRemoteServiceImpl"
+166-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:37:13-90
+167            android:enabled="true"
+167-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:38:13-35
+168            android:exported="false" >
+168-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:39:13-37
+169            <intent-filter>
+169-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:40:13-42:29
+170                <action android:name="org.npci.upi.security.services.CLRemoteService" />
+170-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:41:17-89
+170-->[SecureComponent-release-signed_UAT_14072022_e64f899a.aar] /Users/atif.qamar/.gradle/caches/transforms-3/e37329a4f512ea2d5a8b1becf648c6cd/transformed/jetified-SecureComponent-release-signed_UAT_14072022_e64f899a/AndroidManifest.xml:41:25-86
+171            </intent-filter>
+172        </service>
+173
+174        <meta-data
+174-->[turbo-debug.aar] /Users/atif.qamar/.gradle/caches/transforms-3/99ccd2ae1fd10ed94027e5032fa653fc/transformed/jetified-turbo-debug/AndroidManifest.xml:8:9-10:58
+175            android:name="com.razorpay.plugin.upi_turbo"
+175-->[turbo-debug.aar] /Users/atif.qamar/.gradle/caches/transforms-3/99ccd2ae1fd10ed94027e5032fa653fc/transformed/jetified-turbo-debug/AndroidManifest.xml:9:13-57
+176            android:value="com.razorpay.RazorpayTurbo" />
+176-->[turbo-debug.aar] /Users/atif.qamar/.gradle/caches/transforms-3/99ccd2ae1fd10ed94027e5032fa653fc/transformed/jetified-turbo-debug/AndroidManifest.xml:10:13-55
+177        <meta-data
+177-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:39:9-41:58
+178            android:name="com.razorpay.plugin.googlepay_all"
+178-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:40:13-61
+179            android:value="com.razorpay.RzpGpayMerged" />
+179-->[razorpay-customui-debug-131023-1305.aar] /Users/atif.qamar/.gradle/caches/transforms-3/9433e2c7455c40fd3c8b092415c8af77/transformed/jetified-razorpay-customui-debug-131023-1305/AndroidManifest.xml:41:13-55
+180
+181        <activity android:name="com.razorpay.flutter_customui.RazorpayPaymentActivity" />
+181-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:64:9-90
+181-->[:razorpay_flutter_customui] /Users/atif.qamar/Development/Razorpay/razorpay_plugin_test/build/razorpay_flutter_customui/intermediates/merged_manifest/debug/AndroidManifest.xml:64:19-87
+182
+183        <uses-library
+183-->[androidx.window:window:1.0.0-beta04] /Users/atif.qamar/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+184            android:name="androidx.window.extensions"
+184-->[androidx.window:window:1.0.0-beta04] /Users/atif.qamar/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+185            android:required="false" />
+185-->[androidx.window:window:1.0.0-beta04] /Users/atif.qamar/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+186        <uses-library
+186-->[androidx.window:window:1.0.0-beta04] /Users/atif.qamar/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+187            android:name="androidx.window.sidecar"
+187-->[androidx.window:window:1.0.0-beta04] /Users/atif.qamar/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+188            android:required="false" />
+188-->[androidx.window:window:1.0.0-beta04] /Users/atif.qamar/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+189    </application>
+190
+191</manifest>

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="AJ">കാർഡ് സജീവമല്ല</string>
+    <string name="SP">അസാധുവായ / തെറ്റായ എ ടി എം പിൻ</string>
+    <string name="U76">യുപിഐ പിന്‍ രജിസ്ട്രേഷൻ ഫോർമാറ്റിനെ  ഇഷ്യൂ ചെയ്ത ബാങ്ക് പിന്തുണയ്ക്കുന്നില്ല</string>
+    <string name="URL_error">URL അസാധുവാണ്</string>
+    <string name="aadhaar_otp_info_2">ആധാർ-ഒടിപി യാന്ത്രികമായി വായിക്കപ്പെടും.</string>
+    <string name="aadhaar_otp_limit_info">ആധാർ-ഒടിപി പരിധി കവിഞ്ഞു</string>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ഹോമിലേക്ക് നാവിഗേറ്റുചെയ്യുക"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"മുകളിലേക്ക് നാവിഗേറ്റുചെയ്യുക"</string>
     <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"കൂടുതൽ‍ ഓപ്‌ഷനുകള്‍"</string>
@@ -27,6 +33,78 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"ഇവരുമായി പങ്കിടുക"</string>
     <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>-മായി പങ്കിടുക"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"ചുരുക്കുക"</string>
+    <string name="action_hide">മറയ്ക്കുക</string>
+    <string name="action_resend">ഒ.ടി.പിവീണ്ടുംഅയയ്ക്കുക</string>
+    <string name="action_resend_aadhaar_otp">ആധാർ-ഒടിപി വീണ്ടും അയയ്‌ക്കുക</string>
+    <string name="action_resend_bank_otp">ബാങ്ക്-ഒടിപി വീണ്ടും അയയ്‌ക്കുക</string>
+    <string name="action_show">കാണിക്കുക</string>
+    <string name="back_button_exit_message">പുറത്തുകടക്കാൻ ദയവായി തിരികെ ബട്ടൺ വീണ്ടും അമര്‍ത്തുക </string>
+    <string name="bank_error">ബാങ്കുമായി ബന്ധിപ്പിക്കാനാകുന്നില്ല. ദയവായി വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="bank_otp_info_2">ബാങ്ക്-ഒടിപി യാന്ത്രികമായി വായിക്കപ്പെടും.</string>
+    <string name="bank_otp_limit_info">ബാങ്ക്-ഒടിപി പരിധി കവിഞ്ഞു</string>
+    <string name="card_expiry_title">കാർഡ് നം ന്‍റെ സാധുത അവസാനിക്കുകയാണ് %1$s</string>
+    <string name="card_info">നിങ്ങൾക്ക് നൽകിയിട്ടുള്ള  അക്കൌണ്ട് നമ്പര്‍ %1$s നുള്ള  %2$s ഡെബിറ്റ് കാർഡ് ദയവായി  പരിശോധിക്കുക</string>
+    <string name="card_number_title">ഡെബിറ്റ് കാർഡിന്റെ അവസാനത്തെ 6 അക്കങ്ങള്‍</string>
+    <string name="componentMessage">ദയവായി അഭ്യർത്ഥിച്ച വിവരങ്ങൾ നൽകുക</string>
+    <string name="component_message">ദയവായി അഭ്യർത്ഥിച്ച വിവരങ്ങൾ നൽകുക</string>
+    <string name="detecting_otp">ഒ.ടി.പിവായന</string>
+    <string name="dismiss">നിരാകരിക്കുക</string>
+    <string name="edit_card_number">കാർഡ് നം എഡിറ്റുചെയ്യുക</string>
+    <string name="educational_info_aadhaar_otp">നിങ്ങളുടെ രജിസ്റ്റർ ചെയ്ത മൊബൈൽ നമ്പറിലേക്ക് ആധാർ-ഒടിപി എസ്എംഎസ് വഴി അയച്ചിട്ടുണ്ട്.</string>
+    <string name="educational_info_atm">ഓട്ടോമേറ്റഡ് ടെല്ലർ മെഷീൻ (എ.ടി.എം),പോയിന്‍റ് ഓഫ് സെയില്‍ (പി.ഒ.എസ്) എന്നീ ഇടപാടുകളുടെ സമയത്ത് കാർഡ് ഉടമ സ്വമേധയാ  നല്‍കിയിട്ടുള്ളതാണ് ഈ പിന്‍</string>
+    <string name="educational_info_bank_otp">എസ്എംഎസ് വഴി ബാങ്ക്-ഒടിപി നിങ്ങളുടെ രജിസ്റ്റർ ചെയ്ത മൊബൈൽ നമ്പറിലേക്ക് അയച്ചു.</string>
+    <string name="educational_info_otp">നിങ്ങളുടെ രജിസ്റ്റർ ചെയ്ത മൊബൈൽ നമ്പറിലേക്ക്  എസ്.എം.എസ് വഴി ഒ.ടി.പി അയച്ചു </string>
+    <string name="educational_info_upi">യു.പി.ഐ പിന്‍  നിങ്ങളുടെ അക്കൗണ്ട് അനധികൃത ആക്സസിൽ നിന്നും സുരക്ഷിതമായി സൂക്ഷിക്കും. ഈ പിൻ ആരുമായും പങ്കിടരുത്.</string>
+    <string name="educational_info_upi_debit">യുപിഐ പിൻ അംഗീകരിച്ചാൽ അക്കൗണ്ട് ഡെബിറ്റ് ചെയ്യും</string>
+    <string name="educational_info_upi_debitnew">നിങ്ങളുടെ അക്കൗണ്ടിൽ നിന്ന് നിങ്ങൾ പണം കൈമാറുന്നു %1$s</string>
+    <string name="educational_info_upi_mandate">നിങ്ങൾ ഇതിനെതിരെ മാൻഡേറ്റുമായി ബന്ധപ്പെട്ട ഇടപാട് നടത്തുകയാണ് %1$s</string>
+    <string name="educational_info_upi_mandate_create">നിങ്ങൾ ഇതിനുള്ള മാൻഡേറ്റ് സൃഷ്ടിക്കുകയാണ്  %1$s</string>
+    <string name="educational_info_upi_mandate_modify">നിങ്ങൾ ഇതിനുള്ള മാൻഡേറ്റ് പരിഷ്കരിക്കുകയാണ്  %1$s</string>
+    <string name="educational_info_upi_mandate_pause">നിങ്ങൾ ഇതിനുള്ള മാൻഡേറ്റ് താൽക്കാലികമായി നിർത്തുകയാണ്  %1$s</string>
+    <string name="educational_info_upi_mandate_register">നിങ്ങൾ ഇതിനുള്ള മാൻഡേറ്റ് രജിസ്റ്റർ ചെയ്യുകയാണ്  %1$s</string>
+    <string name="educational_info_upi_mandate_revoke">നിങ്ങൾ ഇതിനുള്ള മാൻഡേറ്റ് അസാധുവാക്കുകയാണ് %1$s</string>
+    <string name="educational_info_upi_mandate_unpause">നിങ്ങൾ ഇതിനുള്ള മാൻഡേറ്റ് വീണ്ടും തുടങ്ങുകയാണ്  %1$s</string>
+    <string name="error_message_aadhaar_otp">ദയവായി %1$d-അക്ക ആധാര്‍-ഒടിപി നൽകുക</string>
+    <string name="error_message_atm_pin">"ദയവായി  %1$d അക്ക എ.ടി.എം  പിന്‍ നല്‍കുക "</string>
+    <string name="error_message_bank_otp">ദയവായി %1$d-അക്ക ബാങ്ക്-ഒടിപി നൽകുക</string>
+    <string name="error_message_card_no">ഡെബിറ്റ് കാർഡിന്റെ അവസാന 6 അക്കങ്ങൾ ദയവായി നൽകുക</string>
+    <string name="error_message_card_validity">ദയവായി കാർഡിന്‍റെ സാധുത നൽകുക</string>
+    <string name="error_message_card_validity_invalid">അസാധുവായ കാർഡ് സാധുത </string>
+    <string name="error_message_mpin">"ദയവായി %1$d അക്ക യു.പി.ഐ പിന്‍ നല്‍കുക "</string>
+    <string name="error_message_otp"> ദയവായി  %1$d അക്ക ഒ.ടി.പി  നല്‍കുക </string>
+    <string name="error_msg">സാങ്കേതിക പ്രശ്നം,ദയവായി കുറച്ച് സമയത്തിനു ശേഷം ശ്രമിക്കുക</string>
+    <string name="forgot_upi">യു.പി.ഐ പിന്‍ മറന്നോ ?</string>
+    <string name="go_back">തിരിച്ച്പോകുക</string>
+    <string name="info">വിവരം</string>
+    <string name="info_pin_not_match">പിന്‍  പൊരുത്തപ്പെടുന്നില്ല. വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="info_pins_dont_match">പിന്നുകൾപൊരുത്തപ്പെടുന്നില്ല</string>
+    <string name="invalid_otp">അസാധുവായ ഒ.ടി.പി </string>
+    <string name="mobile_lock_desc">മൊബൈൽ ലോക്ക്</string>
+    <string name="mobile_lock_header">മൊബൈൽ ലോക്ക് പ്രവർത്തനക്ഷമമാക്കുക</string>
+    <string name="mobile_lock_text">നിങ്ങളുടെ മൊബൈലിന് സ്ക്രീൻ ലോക്ക് ഇല്ല. ഈ സവിശേഷത പ്രവർത്തനക്ഷമമാക്കാൻ ദയവായി ഒരു മൊബൈൽ ലോക്ക് സജ്ജമാക്കുക</string>
+    <string name="mobile_lock_title">ആപ്പ് അനുമതി</string>
+    <string name="network_check_message">ദയവായി നിങ്ങളുടെ ഡാറ്റ നെറ്റ് വര്‍ക്ക് പരിശോധിക്കുക അല്ലെങ്കിൽ ഒരു സജീവ വൈഫൈ നെറ്റ് വര്‍ക്കിലേക്ക് മാറുക.</string>
+    <string name="network_not_available">മൊബൈൽ നെറ്റ് വര്‍ക്ക്  ലഭ്യമല്ല</string>
+    <string name="no_internet">ഇന്റർനെറ്റ് കണക്റ്റിവിറ്റി ഇല്ല</string>
+    <string name="not_right">എന്തോഒന്ന്ശരിയല്ല</string>
+    <string name="npci_aadhaar_otp_title">ദയവായി %1$d-അക്ക ആധാര്‍-ഒടിപി നൽകുക</string>
+    <string name="npci_atm_title">%1$d- അക്ക എ.ടി.എം പിന്‍ നല്‍കുക</string>
+    <string name="npci_bank_otp_title">ദയവായി %1$d-അക്ക ബാങ്ക്-ഒടിപി നൽകുക</string>
+    <string name="npci_confirm_mpin_title">%1$d- അക്ക യു.പി.ഐ പിന്‍ സ്ഥിരീകരിക്കുക</string>
+    <string name="npci_confirm_new_mpin_title">പുതിയ  %1$d- അക്ക യു.പി.ഐ പിന്‍ സ്ഥിരീകരിക്കുക </string>
+    <string name="npci_mpin_title">%1$d- അക്ക യു.പി.ഐ പിന്‍ നല്‍കുക </string>
+    <string name="npci_new_mpin_title">പുതിയ  %1$d- അക്ക യു.പി.ഐ പിന്‍ നല്‍കുക </string>
+    <string name="npci_old_mpin_title">പഴയ %1$d- അക്ക യു.പി.ഐ പിന്‍ നല്‍കുക </string>
+    <string name="npci_otp_title">%1$d അക്ക ഒ.ടി.പി  നല്‍കുക </string>
+    <string name="npci_set_mpin_title">%1$d- അക്ക യു.പി.ഐ പിന്‍ സജ്ജീകരിക്കുക </string>
+    <string name="otp_error">സാധുവായ ഒരു OTP നൽകുക</string>
+    <string name="otp_info_2">ഒ.ടി.പി സ്വയമേവ വായിക്കാന്‍ കഴിയും </string>
+    <string name="otp_limit_info"> ഒ.ടി.പി പരിധി കവിഞ്ഞു</string>
+    <string name="referesh_message">ഇത് നിങ്ങളുടെ ബാങ്കുമായി  സുരക്ഷിതമായ ബന്ധം പുനഃസ്ഥാപിക്കും </string>
+    <string name="refresh_page">പേജ് റീഫ്രെഷ് ചെയ്യുക </string>
     <string msgid="146198913615257606" name="search_menu_title">"തിരയുക"</string>
+    <string name="settings_text">ക്രമീകരണങ്ങളിലേക്ക് പോകുക</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="submitting_details">നിങ്ങളുടെ വിശദാംശങ്ങൾ സമർപ്പിക്കുന്നു</string>
+    <string name="waiting_for_otp">ഓ.ടി.പി വേണ്ടി കാത്തിരിക്കുന്നു</string>
 </resources>

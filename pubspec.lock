@@ -131,9 +131,11 @@ packages:
   razorpay_flutter_customui:
     dependency: "direct main"
     description:
-      path: "/Users/atif.qamar/Development/Razorpay/MyRepo/"
-      relative: false
-    source: path
+      path: "."
+      ref: "develop/turbo_upi"
+      resolved-ref: "3999b4bb419c56994488eedac955634434037ee7"
+      url: "https://github.com/razorpay/razorpay-flutter-customui.git"
+    source: git
     version: "1.3.3"
   sky_engine:
     dependency: transitive
